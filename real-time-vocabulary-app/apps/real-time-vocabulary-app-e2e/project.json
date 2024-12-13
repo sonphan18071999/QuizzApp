@@ -1,0 +1,10 @@
+{
+  "name": "real-time-vocabulary-app-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/real-time-vocabulary-app-e2e/src",
+  "tags": [],
+  "implicitDependencies": ["real-time-vocabulary-app"],
+  "// targets": "to see all targets run: nx show project real-time-vocabulary-app-e2e --web",
+  "targets": {}
+}
