@@ -1,0 +1,11 @@
+<div class="home-container">
+  <h1 class="welcome-message">Welcome, Student!</h1>
+
+  <div class="assessment-cards-container">
+    <lib-information-card
+      (cardClick)="joinAssessment($event)"
+      *ngFor="let assessment of assessments"
+      [assessment]="assessment">
+    </lib-information-card>
+  </div>
+</div>

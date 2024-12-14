@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="NxAngularConfigService" workspaceLocation="file://$PROJECT_DIR$/nx.json">
+    <projects>
+      <project name="libs" file="file://$PROJECT_DIR$/real-time-vocabulary-app/libs/project.json" />
+      <project name="real-time-vocabulary-app" file="file://$PROJECT_DIR$/real-time-vocabulary-app/apps/real-time-vocabulary-app/project.json" />
+      <project name="real-time-vocabulary-app-e2e" file="file://$PROJECT_DIR$/real-time-vocabulary-app/apps/real-time-vocabulary-app-e2e/project.json" />
+      <project name="share-logic" file="file://$PROJECT_DIR$/real-time-vocabulary-app/libs/share-logic/project.json" />
+      <project name="share-ui" file="file://$PROJECT_DIR$/real-time-vocabulary-app/libs/share-ui/project.json" />
+    </projects>
+  </component>
+</project>

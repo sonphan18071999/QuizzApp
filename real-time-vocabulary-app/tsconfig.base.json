@@ -16,10 +16,14 @@
     "baseUrl": ".",
     "paths": {
       "@real-time-vocabulary-app/libs": ["libs/src/index.ts"],
+      "@real-time-vocabulary-app/live-score": ["libs/live-score/src/index.ts"],
       "@real-time-vocabulary-app/share-logic": [
         "libs/share-logic/src/index.ts"
       ],
       "@real-time-vocabulary-app/share-ui": ["libs/share-ui/src/index.ts"],
+      "@real-time-vocabulary-app/share-ui/live-score": [
+        "libs/share-ui/live-score/src/index.ts"
+      ],
       "@real-time-vocabulary-app/ui": ["ui/src/index.ts"]
     }
   },

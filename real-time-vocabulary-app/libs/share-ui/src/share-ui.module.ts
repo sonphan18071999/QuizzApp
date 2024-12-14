@@ -1,14 +1,17 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
+import { HeaderComponent } from './lib/header/header.component';
+import { FooterComponent } from './lib/footer/footer.component';
+import { InformationCardComponent } from './lib/information-card/information-card.component';
 
 @NgModule({
-  declarations: [
-  ],
+  declarations: [],
   imports: [
-    CommonModule
+    CommonModule,
+    HeaderComponent,
+    FooterComponent,
+    InformationCardComponent,
   ],
-  exports: [
-  ]
+  exports: [HeaderComponent, FooterComponent, InformationCardComponent],
 })
 export class ShareUiModule {}
