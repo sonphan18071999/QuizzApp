@@ -1,0 +1,9 @@
+<div class="assessment-detail">
+  <lib-information-card
+    (cardClick)="showTheAssessment()"
+    [assessment]="assessmentDetail">
+    <h4>Rules: </h4>
+    <p [innerHTML]="assessmentDetail.rule">
+    </p>
+  </lib-information-card>
+</div>

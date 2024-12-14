@@ -1,20 +1,38 @@
 import { Route } from '@angular/router';
-import { HomeComponent } from './pages/home.component';
-import { AssessmentCardsComponent } from './components/assessment-cards/assessment-cards.component';
 
 export const appRoutes: Route[] = [
   {
-    path: 'home',
-    component: HomeComponent,
+    path: 'elsa',
+    loadComponent: () =>
+      import('./pages/home/home.component').then((m) => m.HomeComponent),
     children: [
       {
         path: '',
-        component: AssessmentCardsComponent,
+        loadComponent: () =>
+          import(
+            './components/assessment-cards/assessment-cards.component'
+          ).then((m) => m.AssessmentCardsComponent),
+      },
+    ],
+  },
+  {
+    path: 'assessment/:id',
+    loadComponent: () =>
+      import('./pages/assessment/assessment.component').then(
+        (m) => m.AssessmentComponent,
+      ),
+    children: [
+      {
+        path: 'detail',
+        loadComponent: () =>
+          import(
+            './components/assessment-detail/assessment-detail.component'
+          ).then((m) => m.AssessmentDetailComponent),
       },
     ],
   },
   {
     path: '**',
-    component: HomeComponent,
+    redirectTo: 'elsa',
   },
 ];

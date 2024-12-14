@@ -1,0 +1,14 @@
+.assessment-detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+:host ::ng-deep lib-information-card {
+  .assessment-card {
+    max-width: 40rem;
+    height: auto;
+  }
+}

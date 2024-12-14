@@ -3,7 +3,7 @@
 
   <div class="assessment-cards-container">
     <lib-information-card
-      (cardClick)="joinAssessment($event)"
+      (cardClick)="navigateToDetail($event)"
       *ngFor="let assessment of assessments"
       [assessment]="assessment">
     </lib-information-card>
