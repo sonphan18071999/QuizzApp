@@ -7981,7 +7981,7 @@
   "resolved" "https://registry.npmjs.org/nwsapi/-/nwsapi-2.2.16.tgz"
   "version" "2.2.16"
 
-"nx@18.3.5":
+"nx@^18.3.5", "nx@18.3.5":
   "integrity" "sha512-wWcvwoTgiT5okdrG0RIWm1tepC17bDmSpw+MrOxnjfBjARQNTURkiq4U6cxjCVsCxNHxCrlAaBSQLZeBgJZTzQ=="
   "resolved" "https://registry.npmjs.org/nx/-/nx-18.3.5.tgz"
   "version" "18.3.5"

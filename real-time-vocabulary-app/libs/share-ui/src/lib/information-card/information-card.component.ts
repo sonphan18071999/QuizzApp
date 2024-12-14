@@ -2,6 +2,7 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
+import { Assessment } from '../../../../../apps/real-time-vocabulary-app/src/app/models/assessment.model';
 
 @Component({
   selector: 'lib-information-card',
@@ -11,16 +12,12 @@ import { MatButtonModule } from '@angular/material/button';
   styleUrl: './information-card.component.scss',
 })
 export class InformationCardComponent {
-  @Input() public assessment: {
-    title: string;
-    description: string;
-    id: string;
-    time: string;
-  } = {
+  @Input() public assessment: Assessment = {
     title: '',
     description: '',
     id: '',
-    time: '',
+    duration: '',
+    attempt: undefined,
   };
   @Output() public cardClick: EventEmitter<string> = new EventEmitter<string>();
 

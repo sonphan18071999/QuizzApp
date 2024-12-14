@@ -29,3 +29,18 @@
 .username {
   font-size: 1.1rem;
 }
+
+.logo {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  padding: 0.5rem;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    max-width: 80%;
+    height: auto;
+  }
+}

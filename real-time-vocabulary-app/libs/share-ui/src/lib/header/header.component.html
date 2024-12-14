@@ -1,15 +1,19 @@
 <mat-toolbar class="header" color="primary">
-  <!-- Logo Section -->
   <div class="logo">
-    <img alt="Logo" src="assets/logo.png"/>
+    <img
+      [ngSrc]="'https://i0.wp.com/blog.elsaspeak.com/wp-content/uploads/2020/01/logo-black-1.png?resize=636%2C229&ssl=1'"
+      [style.height.px]="50"
+      [style.width.%]="10"
+      alt="Logo"
+      class="logo"
+      fill=""/>
+
   </div>
 
-  <!-- Spacer to push user profile to the right -->
   <span class="spacer"></span>
 
-  <!-- User Profile Section -->
   <div class="user-profile">
     <mat-icon>account_circle</mat-icon>
-    <span class="username">John Doe</span>
+    <span class="username">Son</span>
   </div>
 </mat-toolbar>
