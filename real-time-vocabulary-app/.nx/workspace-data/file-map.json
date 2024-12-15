@@ -1,0 +1,869 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.2.2",
+  "pathMappings": {
+    "@real-time-vocabulary-app/libs": [
+      "libs/src/index.ts"
+    ],
+    "@real-time-vocabulary-app/live-score": [
+      "libs/live-score/src/index.ts"
+    ],
+    "@real-time-vocabulary-app/question-multiple-choice": [
+      "libs/question-multiple-choice/src/index.ts"
+    ],
+    "@real-time-vocabulary-app/share-logic": [
+      "libs/share-logic/src/index.ts"
+    ],
+    "@real-time-vocabulary-app/share-ui": [
+      "libs/share-ui/src/index.ts"
+    ],
+    "@real-time-vocabulary-app/share-ui/live-score": [
+      "libs/share-ui/live-score/src/index.ts"
+    ],
+    "@real-time-vocabulary-app/ui": [
+      "ui/src/index.ts"
+    ]
+  },
+  "nxJsonPlugins": [
+    {
+      "name": "@nx/cypress/plugin",
+      "options": {
+        "targetName": "e2e",
+        "openTargetName": "open-cypress",
+        "componentTestingTargetName": "component-test",
+        "ciTargetName": "e2e-ci"
+      }
+    },
+    {
+      "name": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "lint"
+      }
+    }
+  ],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "package-lock.json",
+        "hash": "17013501231038485856"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "10416965926189581939"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "18315524891129148814"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "3395189204293871444"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "4934098906304722861"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "3494843969422251966"
+      },
+      {
+        "file": "assets/logo-elsa.png",
+        "hash": "9189047641381522465"
+      },
+      {
+        "file": "package.json",
+        "hash": "7339993933396431469"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "17636774486837614343"
+      },
+      {
+        "file": "nx.json",
+        "hash": "1407368089358924710"
+      },
+      {
+        "file": "README.md",
+        "hash": "11917501359457570071"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "8491837053101957257"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "552408682942840636"
+      }
+    ],
+    "projectFileMap": {
+      "real-time-vocabulary-app-e2e": [
+        {
+          "file": "apps/real-time-vocabulary-app-e2e/.eslintrc.json",
+          "hash": "14060216369337943343"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app-e2e/cypress.config.ts",
+          "hash": "7152315420478229079",
+          "deps": [
+            "npm:cypress"
+          ]
+        },
+        {
+          "file": "apps/real-time-vocabulary-app-e2e/project.json",
+          "hash": "4283715363066344874"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app-e2e/src/e2e/app.cy.ts",
+          "hash": "10568798050331889746"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app-e2e/src/fixtures/example.json",
+          "hash": "11785586596216172004"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app-e2e/src/support/app.po.ts",
+          "hash": "11157016311132186162"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app-e2e/src/support/commands.ts",
+          "hash": "5397443931564808659"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app-e2e/src/support/e2e.ts",
+          "hash": "1054106023200826784"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app-e2e/tsconfig.json",
+          "hash": "4332380883180617610"
+        }
+      ],
+      "share-logic": [
+        {
+          "file": "libs/share-logic/.eslintrc.json",
+          "hash": "9628345067573567197"
+        },
+        {
+          "file": "libs/share-logic/README.md",
+          "hash": "5239999889976827180"
+        },
+        {
+          "file": "libs/share-logic/jest.config.ts",
+          "hash": "16499347065518090453"
+        },
+        {
+          "file": "libs/share-logic/project.json",
+          "hash": "103154460059571428"
+        },
+        {
+          "file": "libs/share-logic/src/index.ts",
+          "hash": "11105918459496080167"
+        },
+        {
+          "file": "libs/share-logic/src/lib/share-logic/share-logic.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "libs/share-logic/src/lib/share-logic/share-logic.component.html",
+          "hash": "6634262661112527170"
+        },
+        {
+          "file": "libs/share-logic/src/lib/share-logic/share-logic.component.spec.ts",
+          "hash": "7229567487452463068",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/share-logic/src/lib/share-logic/share-logic.component.ts",
+          "hash": "4510768553349652111",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "libs/share-logic/src/share-logic.module.ts",
+          "hash": "324438956387755049",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/share-logic/src/test-setup.ts",
+          "hash": "12935735732682149507",
+          "deps": [
+            "npm:jest-preset-angular"
+          ]
+        },
+        {
+          "file": "libs/share-logic/tsconfig.json",
+          "hash": "15487755565970508470"
+        },
+        {
+          "file": "libs/share-logic/tsconfig.lib.json",
+          "hash": "5796668385415907511"
+        },
+        {
+          "file": "libs/share-logic/tsconfig.spec.json",
+          "hash": "2927375835638640771"
+        }
+      ],
+      "real-time-vocabulary-app": [
+        {
+          "file": "apps/real-time-vocabulary-app/.eslintrc.json",
+          "hash": "3322449398258820698"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/jest.config.ts",
+          "hash": "10168105693012371823"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/project.json",
+          "hash": "7491425387035959181"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/app.component.html",
+          "hash": "17816966185630879015"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/app.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/app.component.spec.ts",
+          "hash": "24265313116739735",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/app.component.ts",
+          "hash": "12721049270923908153",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/app.config.ts",
+          "hash": "10618457967269332155",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/app.module.ts",
+          "hash": "3037158561525834871",
+          "deps": [
+            "npm:@angular/core",
+            "share-ui",
+            "share-logic",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/app.routes.ts",
+          "hash": "13451934861411354010",
+          "deps": [
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.html",
+          "hash": "3978390472247249831"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.scss",
+          "hash": "2304305439328474364"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.spec.ts",
+          "hash": "2688247188957003394",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.ts",
+          "hash": "2607300498197490861",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/material",
+            "npm:@angular/router",
+            "share-ui"
+          ]
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/components/assessment-detail/assessment-detail.component.html",
+          "hash": "12291955586660650467"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/components/assessment-detail/assessment-detail.component.scss",
+          "hash": "9639008659416325991"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/components/assessment-detail/assessment-detail.component.spec.ts",
+          "hash": "5391993192838913740",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/components/assessment-detail/assessment-detail.component.ts",
+          "hash": "1794544170377829381",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/material",
+            "share-ui",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/components/quiz-card/quiz-card.component.html",
+          "hash": "3596731711572520962"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/components/quiz-card/quiz-card.component.scss",
+          "hash": "13984587386202856457"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/components/quiz-card/quiz-card.component.spec.ts",
+          "hash": "13421659209130545519",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/components/quiz-card/quiz-card.component.ts",
+          "hash": "4825083100961885940",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/material",
+            "share-ui",
+            "npm:@angular/forms"
+          ]
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/components/quiz-map/quiz-map.component.html",
+          "hash": "3790525241200092227"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/components/quiz-map/quiz-map.component.scss",
+          "hash": "354844403269139254"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/components/quiz-map/quiz-map.component.spec.ts",
+          "hash": "9910996489550187503",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/components/quiz-map/quiz-map.component.ts",
+          "hash": "12949205020673424536",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/elsa-leader-board/elsa-leader-board.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/elsa-leader-board/elsa-leader-board.component.html",
+          "hash": "5349443660330237487"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/elsa-leader-board/elsa-leader-board.component.spec.ts",
+          "hash": "5038067340709917388",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/elsa-leader-board/elsa-leader-board.component.ts",
+          "hash": "17838884958712247150",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/guards/auth.guard.ts",
+          "hash": "12246090573746347745",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/mocks/assessments-mock.ts",
+          "hash": "7546722688670810719"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/mocks/leader-board-mock.ts",
+          "hash": "10336640013932641322"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/mocks/question-mock.ts",
+          "hash": "3196814791696334296"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/mocks/users-mock.ts",
+          "hash": "8037574314422886310"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/models/assessment.model.ts",
+          "hash": "3603923020801307511"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/models/leader-board.model.ts",
+          "hash": "1593558616025041719"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/models/quiz.model.ts",
+          "hash": "3905199304828360868"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/models/user.model.ts",
+          "hash": "4949851575879446439"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/nx-welcome.component.ts",
+          "hash": "13742327521394620065",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/pages/assessment/assessment.component.html",
+          "hash": "5025102588620745626"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/pages/assessment/assessment.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/pages/assessment/assessment.component.spec.ts",
+          "hash": "2879071315958811681",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/pages/assessment/assessment.component.ts",
+          "hash": "6089273442945674714",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "share-ui"
+          ]
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/pages/home/home.component.html",
+          "hash": "9796013112867580044"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/pages/home/home.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/pages/home/home.component.spec.ts",
+          "hash": "2620641819347346630",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/pages/home/home.component.ts",
+          "hash": "14776236516932148149",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/material",
+            "share-ui",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/pipes/map-leader-board-display-data.pipe.spec.ts",
+          "hash": "12949043868104009453"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/pipes/map-leader-board-display-data.pipe.ts",
+          "hash": "7169276729159019258",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/services/assessment/assessment.service.spec.ts",
+          "hash": "11303052756120316458",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/services/assessment/assessment.service.ts",
+          "hash": "6104294575510289458",
+          "deps": [
+            "npm:@angular/core",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/services/authorization/authorization.service.spec.ts",
+          "hash": "5944695216552972123",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/services/authorization/authorization.service.ts",
+          "hash": "10930150671454754284",
+          "deps": [
+            "npm:@angular/core",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/services/leader-board.service.spec.ts",
+          "hash": "845101460747605312",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/services/leader-board.service.ts",
+          "hash": "4628876639348657829",
+          "deps": [
+            "npm:@angular/core",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/index.html",
+          "hash": "8176815507245908898"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/main.ts",
+          "hash": "16635586463787978962",
+          "deps": [
+            "npm:@angular/platform-browser"
+          ]
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/styles.scss",
+          "hash": "9525514396149276363"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/test-setup.ts",
+          "hash": "12935735732682149507",
+          "deps": [
+            "npm:jest-preset-angular"
+          ]
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/tsconfig.app.json",
+          "hash": "8365644956319658761"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/tsconfig.editor.json",
+          "hash": "1055794200401717100"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/tsconfig.json",
+          "hash": "10165753922017812673"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/tsconfig.spec.json",
+          "hash": "2927375835638640771"
+        }
+      ],
+      "share-ui": [
+        {
+          "file": "libs/share-ui/.eslintrc.json",
+          "hash": "9628345067573567197"
+        },
+        {
+          "file": "libs/share-ui/README.md",
+          "hash": "18111801137659344390"
+        },
+        {
+          "file": "libs/share-ui/jest.config.ts",
+          "hash": "6520891559926287266"
+        },
+        {
+          "file": "libs/share-ui/project.json",
+          "hash": "9016527183575304866"
+        },
+        {
+          "file": "libs/share-ui/src/assets/logo-elsa.png",
+          "hash": "9189047641381522465"
+        },
+        {
+          "file": "libs/share-ui/src/index.ts",
+          "hash": "14006473331614852024"
+        },
+        {
+          "file": "libs/share-ui/src/lib/countdown-timer/countdown-timer.component.html",
+          "hash": "15616134814556994211"
+        },
+        {
+          "file": "libs/share-ui/src/lib/countdown-timer/countdown-timer.component.scss",
+          "hash": "17356630528247345873"
+        },
+        {
+          "file": "libs/share-ui/src/lib/countdown-timer/countdown-timer.component.spec.ts",
+          "hash": "9232622112204245902",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/share-ui/src/lib/countdown-timer/countdown-timer.component.ts",
+          "hash": "18081491383309832473",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "libs/share-ui/src/lib/footer/footer.component.html",
+          "hash": "4842576272282038718"
+        },
+        {
+          "file": "libs/share-ui/src/lib/footer/footer.component.scss",
+          "hash": "4388480356719403545"
+        },
+        {
+          "file": "libs/share-ui/src/lib/footer/footer.component.spec.ts",
+          "hash": "5850760657800237085",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/share-ui/src/lib/footer/footer.component.ts",
+          "hash": "12314124889146047031",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "libs/share-ui/src/lib/header/header.component.html",
+          "hash": "18078237888432889729"
+        },
+        {
+          "file": "libs/share-ui/src/lib/header/header.component.scss",
+          "hash": "7384121329444377228"
+        },
+        {
+          "file": "libs/share-ui/src/lib/header/header.component.spec.ts",
+          "hash": "4499384199601543057",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/share-ui/src/lib/header/header.component.ts",
+          "hash": "10340365503607090316",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "libs/share-ui/src/lib/information-card/information-card.component.html",
+          "hash": "14241222008730319351"
+        },
+        {
+          "file": "libs/share-ui/src/lib/information-card/information-card.component.scss",
+          "hash": "16462019047901725829"
+        },
+        {
+          "file": "libs/share-ui/src/lib/information-card/information-card.component.spec.ts",
+          "hash": "6027533160548477121",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/share-ui/src/lib/information-card/information-card.component.ts",
+          "hash": "5641897492696156812",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/material",
+            "real-time-vocabulary-app"
+          ]
+        },
+        {
+          "file": "libs/share-ui/src/lib/leader-board/leader-board.component.html",
+          "hash": "4391170286944421102"
+        },
+        {
+          "file": "libs/share-ui/src/lib/leader-board/leader-board.component.scss",
+          "hash": "11148920709847338356"
+        },
+        {
+          "file": "libs/share-ui/src/lib/leader-board/leader-board.component.spec.ts",
+          "hash": "10577805483584135040",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/share-ui/src/lib/leader-board/leader-board.component.ts",
+          "hash": "5322764501898269264",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "libs/share-ui/src/lib/multiple-question-choice/multiple-question-choice.component.html",
+          "hash": "14354147726760538156"
+        },
+        {
+          "file": "libs/share-ui/src/lib/multiple-question-choice/multiple-question-choice.component.scss",
+          "hash": "11659655934789103117"
+        },
+        {
+          "file": "libs/share-ui/src/lib/multiple-question-choice/multiple-question-choice.component.spec.ts",
+          "hash": "4724654924544815334",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/share-ui/src/lib/multiple-question-choice/multiple-question-choice.component.ts",
+          "hash": "9470882739313082432",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/material",
+            "npm:@angular/forms",
+            "real-time-vocabulary-app"
+          ]
+        },
+        {
+          "file": "libs/share-ui/src/lib/quiz-navigation-action-buttons/quiz-navigation-action-buttons.component.html",
+          "hash": "11995809403372293882"
+        },
+        {
+          "file": "libs/share-ui/src/lib/quiz-navigation-action-buttons/quiz-navigation-action-buttons.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "libs/share-ui/src/lib/quiz-navigation-action-buttons/quiz-navigation-action-buttons.component.spec.ts",
+          "hash": "13902373702570057261",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/share-ui/src/lib/quiz-navigation-action-buttons/quiz-navigation-action-buttons.component.ts",
+          "hash": "7011023386059092503",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "libs/share-ui/src/share-ui.module.ts",
+          "hash": "14209371250190385392",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "libs/share-ui/src/test-setup.ts",
+          "hash": "12935735732682149507",
+          "deps": [
+            "npm:jest-preset-angular"
+          ]
+        },
+        {
+          "file": "libs/share-ui/tsconfig.json",
+          "hash": "15487755565970508470"
+        },
+        {
+          "file": "libs/share-ui/tsconfig.lib.json",
+          "hash": "5796668385415907511"
+        },
+        {
+          "file": "libs/share-ui/tsconfig.spec.json",
+          "hash": "2927375835638640771"
+        }
+      ],
+      "libs": [
+        {
+          "file": "libs/.eslintrc.json",
+          "hash": "13179335397355282534"
+        },
+        {
+          "file": "libs/README.md",
+          "hash": "252315953973432612"
+        },
+        {
+          "file": "libs/jest.config.ts",
+          "hash": "13184404763730401998"
+        },
+        {
+          "file": "libs/project.json",
+          "hash": "9828835560212056990"
+        },
+        {
+          "file": "libs/tsconfig.json",
+          "hash": "4881022640630122902"
+        },
+        {
+          "file": "libs/tsconfig.lib.json",
+          "hash": "4766185256741444917"
+        },
+        {
+          "file": "libs/tsconfig.spec.json",
+          "hash": "2129196202529263968"
+        }
+      ]
+    }
+  }
+}

@@ -19,6 +19,7 @@ export class InformationCardComponent {
     duration: '',
     attempt: undefined,
   };
+  @Input() public primaryButtonText = 'Join Assessment';
   @Output() public cardClick: EventEmitter<string> = new EventEmitter<string>();
 
   public onCardClick(): void {
