@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Component, EventEmitter, inject, Input, Output } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {
   MatCard,
@@ -10,6 +10,7 @@ import { MatButton } from '@angular/material/button';
 import { MatActionList, MatList, MatListItem } from '@angular/material/list';
 import { InformationCardComponent } from '@real-time-vocabulary-app/share-ui';
 import { Assessment } from '../../models/assessment.model';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-assessment-detail',
@@ -44,10 +45,13 @@ export class AssessmentDetailComponent extends InformationCardComponent {
   };
 
   @Output() startAssessment: EventEmitter<void> = new EventEmitter<void>();
+  public router = inject(Router);
 
   public onStart(): void {
     this.startAssessment.emit();
   }
 
-  public showTheAssessment(): void {}
+  public showTheAssessment(): void {
+    this.router.navigate([`assessment/${this.assessmentDetail.id}/quiz/0`]);
+  }
 }

@@ -1,0 +1,11 @@
+<div class="quiz-map">
+  <h3>Quiz Questions</h3>
+  <div class="questions-container">
+    <button (click)="navigateToQuestion(question.id)"
+            *ngFor="let question of questions"
+            class="question-button"
+            mat-stroked-button>
+      {{ question.id }}
+    </button>
+  </div>
+</div>

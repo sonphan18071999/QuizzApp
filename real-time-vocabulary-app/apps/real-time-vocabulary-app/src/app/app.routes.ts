@@ -29,6 +29,13 @@ export const appRoutes: Route[] = [
             './components/assessment-detail/assessment-detail.component'
           ).then((m) => m.AssessmentDetailComponent),
       },
+      {
+        path: 'quiz/:quizId',
+        loadComponent: () =>
+          import('./components/quiz-card/quiz-card.component').then(
+            (m) => m.QuizCardComponent,
+          ),
+      },
     ],
   },
   {

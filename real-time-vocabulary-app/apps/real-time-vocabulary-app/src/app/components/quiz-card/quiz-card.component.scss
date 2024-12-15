@@ -1,0 +1,25 @@
+
+.quiz-card {
+  .quiz-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+  }
+
+  mat-card {
+    width: calc(100vw - 2rem);
+    margin: 1rem;
+    height: auto;
+    padding: 0 1rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+}
+
+:host ::ng-deep .mat-mdc-card-actions {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+}

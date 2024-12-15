@@ -1,46 +1,87 @@
-import { Component, Input } from '@angular/core';
+import { Component, DestroyRef, inject, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Question } from '../../models/question.model';
-import { MatCard, MatCardContent } from '@angular/material/card';
+import {
+  MatCard,
+  MatCardActions,
+  MatCardContent,
+} from '@angular/material/card';
+import {
+  CountdownTimerComponent,
+  MultipleQuestionChoiceComponent,
+  QuizNavigationActionButtonsComponent,
+} from '@real-time-vocabulary-app/share-ui';
+import { MatButton } from '@angular/material/button';
+import { QuizMapComponent } from '../quiz-map/quiz-map.component';
+import { AssessmentService } from '../../services/assessment/assessment.service';
+import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
+import { Quiz } from '../../models/quiz.model';
+import {
+  FormArray,
+  FormBuilder,
+  FormControl,
+  FormGroup,
+  ReactiveFormsModule,
+  Validators,
+} from '@angular/forms';
 
 @Component({
   selector: 'app-quiz-card',
   standalone: true,
-  imports: [CommonModule, MatCard, MatCardContent],
+  imports: [
+    CommonModule,
+    MatCard,
+    MatCardContent,
+    MultipleQuestionChoiceComponent,
+    CountdownTimerComponent,
+    MatButton,
+    MatCardActions,
+    QuizMapComponent,
+    QuizNavigationActionButtonsComponent,
+    ReactiveFormsModule,
+  ],
   templateUrl: './quiz-card.component.html',
-  styleUrl: './quiz-card.component.scss',
+  styleUrls: ['./quiz-card.component.scss'],
 })
-export class QuizCardComponent {
-  @Input() questions: Question[] = [];
-  currentIndex = 0;
-  selectedAnswer: string | string[] | null = null;
+export class QuizCardComponent implements OnInit {
+  public assessmentService = inject(AssessmentService);
+  public destroyRef = inject(DestroyRef);
+  public formBuilder = inject(FormBuilder);
+  public questions: Quiz[] = [] as Quiz[];
+  public form!: FormGroup;
 
-  get currentQuestion() {
-    return this.questions[this.currentIndex];
+  public get questionsFormArray(): FormArray<FormControl> {
+    return this.form.get('questions') as FormArray<FormControl>;
   }
 
-  nextQuestion() {
-    if (this.currentIndex < this.questions.length - 1) {
-      this.currentIndex++;
-      this.selectedAnswer = null;
+  ngOnInit(): void {
+    this.form = this.formBuilder.group({
+      questions: this.formBuilder.array([]),
+    });
+    this.retrieveQuestions();
+  }
+
+  public retrieveQuestions(): void {
+    this.assessmentService
+      .getQuestions()
+      .pipe(takeUntilDestroyed(this.destroyRef))
+      .subscribe((res) => {
+        this.questions = res;
+        this.mapFormControls();
+      });
+  }
+
+  public mapFormControls(): void {
+    const controls = this.questions.map(() =>
+      this.formBuilder.control(null, [Validators.required]),
+    );
+    this.form.setControl('questions', this.formBuilder.array(controls));
+  }
+
+  public submitQuiz(): void {
+    if (this.form.invalid) {
+      this.form.markAllAsTouched();
+    } else {
+      console.log('form valid');
     }
-  }
-
-  previousQuestion() {
-    if (this.currentIndex > 0) {
-      this.currentIndex--;
-      this.selectedAnswer = null;
-    }
-  }
-
-  selectAnswer(answer: string | string[]) {
-    this.selectedAnswer = answer;
-  }
-
-  isAnswerCorrect() {
-    if (Array.isArray(this.currentQuestion.answer)) {
-      return this.selectedAnswer === this.currentQuestion.answer;
-    }
-    return this.selectedAnswer === this.currentQuestion.answer;
   }
 }

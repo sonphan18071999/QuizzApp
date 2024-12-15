@@ -1,11 +1,24 @@
-<mat-card class="question-card">
-  <mat-card-content>
-    <h2>{{ currentQuestion.question }}</h2>
-
-    <!--    <mat-radio-group *ngIf="currentQuestion.type === 'single-choice'" [(ngModel)]="selectedAnswer">-->
-    <!--      <mat-radio-button *ngFor="let choice of currentQuestion.choices" [value]="choice">-->
-    <!--        {{ choice }}-->
-    <!--      </mat-radio-button>-->
-    <!--    </mat-radio-group>-->
-  </mat-card-content>
-</mat-card>
+<div class="quiz-card">
+  <mat-card>
+    <div class="quiz-card-header">
+      <h3>Assessment Title</h3>
+      <div>
+        <lib-countdown-timer/>
+      </div>
+    </div>
+    <form (ngSubmit)="submitQuiz()" *ngIf="form && questions.length > 0" [formGroup]="form">
+      <div formArrayName="questions">
+        <div *ngFor="let question of questions; let i = index">
+          <lib-multiple-question-choice
+            [question]="question"
+            [quizFormControl]="questionsFormArray.at(i)"
+          />
+        </div>
+      </div>
+    </form>
+    <div>
+      <button (click)="submitQuiz()" mat-stroked-button type="submit">Submit</button>
+    </div>
+    <app-quiz-map [questions]="questions"/>
+  </mat-card>
+</div>
