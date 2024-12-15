@@ -1,4 +1,4 @@
-export const QuestionsMock = [
+export const QUESTIONS_MOCK = [
   {
     id: '1',
     question: "Choose the synonym of 'happy'.",

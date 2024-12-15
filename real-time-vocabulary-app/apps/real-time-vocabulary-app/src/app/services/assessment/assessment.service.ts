@@ -1,13 +1,13 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
-import { QuestionsMock } from '../../mocks/question-mock';
 import { Quiz } from '../../models/quiz.model';
+import { QUESTIONS_MOCK } from '../../mocks/question-mock';
 
 @Injectable({
   providedIn: 'root',
 })
 export class AssessmentService {
-  private questions = new BehaviorSubject<Quiz[]>(QuestionsMock as Quiz[]);
+  private questions = new BehaviorSubject<Quiz[]>(QUESTIONS_MOCK as Quiz[]);
 
   getQuestions() {
     return this.questions.asObservable();

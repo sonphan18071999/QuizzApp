@@ -1,11 +1,19 @@
-<div class="home-container">
+<div class="home-page-container">
   <h1 class="welcome-message">Welcome, Student!</h1>
-
-  <div class="assessment-cards-container">
-    <lib-information-card
-      (cardClick)="navigateToDetail($event)"
-      *ngFor="let assessment of assessments"
-      [assessment]="assessment">
-    </lib-information-card>
+  <div>
+    <ng-container *ngIf="leaderBoards.length">
+      <lib-leader-board [dataSource]="leaderBoards"
+                        [displayedColumns]="['id','name','score','time']"/>
+    </ng-container>
+  </div>
+  <div>
+    <h3>Assessments</h3>
+    <div class="assessment-cards-container">
+      <lib-information-card
+        (cardClick)="navigateToDetail($event)"
+        *ngFor="let assessment of assessments"
+        [assessment]="assessment">
+      </lib-information-card>
+    </div>
   </div>
 </div>
