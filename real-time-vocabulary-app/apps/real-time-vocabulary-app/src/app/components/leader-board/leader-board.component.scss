@@ -1,0 +1,66 @@
+.leaderboard-container {
+  display: flex;
+  flex-direction: column;
+  //overflow-x: ;
+  gap: 0.5rem;
+  padding: 0.5rem
+}
+
+.leaderboard-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 3rem;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #fafafa;
+}
+
+.leaderboard-container__data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  h4 {
+    margin: 0;
+  }
+
+  .user-name-container,
+  .name-container,
+  .points-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .user-name-container {
+    flex: 1;
+    text-align: center;
+    padding-left: 1rem;
+  }
+
+  .name-container {
+    flex: 3;
+    text-align: center;
+  }
+
+  .points-container {
+    flex: 1;
+    text-align: right;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .leaderboard-card {
+    animation: fadeIn 1s ease-out;
+  }
+}

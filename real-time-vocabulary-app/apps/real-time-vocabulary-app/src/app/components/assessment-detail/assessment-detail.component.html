@@ -4,7 +4,10 @@
     [assessment]="assessmentDetail"
     [primaryButtonText]="'Start'">
     <h4>Rules: </h4>
-    <p [innerHTML]="assessmentDetail.rule">
-    </p>
+    <ul class="assessment-rules">
+      <li><strong>Rule 1:</strong> Read each question carefully before answering.</li>
+      <li><strong>Rule 2:</strong> Do not rush; take your time to think through your responses.</li>
+      <li><strong>Rule 3:</strong> Ensure you understand the instructions before starting the assessment.</li>
+    </ul>
   </lib-information-card>
 </div>

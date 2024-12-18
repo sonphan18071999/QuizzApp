@@ -2,15 +2,13 @@ import { Component, inject, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MatCardModule } from '@angular/material/card';
 import { Router } from '@angular/router';
-import {
-  InformationCardComponent,
-  LeaderBoardComponent,
-} from '@real-time-vocabulary-app/share-ui';
+import { InformationCardComponent } from '@real-time-vocabulary-app/share-ui';
 import { Assessment } from '../../models/assessment.model';
 import { ASSESSMENTS_MOCK } from '../../mocks/assessments-mock';
 import { LeaderBoardDisplay } from '../../models/leader-board.model';
 import { MapLeaderBoardDisplayDataPipe } from '../../pipes/map-leader-board-display-data.pipe';
 import { LEADER_BOARD_MOCK } from '../../mocks/leader-board-mock';
+import { LeaderBoardComponent } from '../leader-board/leader-board.component';
 
 @Component({
   selector: 'app-assessment-cards',
@@ -21,6 +19,7 @@ import { LEADER_BOARD_MOCK } from '../../mocks/leader-board-mock';
     InformationCardComponent,
     LeaderBoardComponent,
     MapLeaderBoardDisplayDataPipe,
+    LeaderBoardComponent,
   ],
   templateUrl: './assessment-cards.component.html',
   styleUrl: './assessment-cards.component.scss',

@@ -44,20 +44,44 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "package-lock.json",
-        "hash": "17013501231038485856"
+        "file": "yarn.lock",
+        "hash": "17636774486837614343"
       },
       {
-        "file": "tsconfig.base.json",
-        "hash": "10416965926189581939"
+        "file": "assets/logo-elsa.png",
+        "hash": "9189047641381522465"
+      },
+      {
+        "file": "README.md",
+        "hash": "11917501359457570071"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "3494843969422251966"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "4934098906304722861"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "18315524891129148814"
       },
       {
         "file": "jest.preset.js",
         "hash": "9430166341120122740"
       },
       {
-        "file": ".eslintrc.json",
-        "hash": "18315524891129148814"
+        "file": ".prettierrc",
+        "hash": "552408682942840636"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "17013501231038485856"
+      },
+      {
+        "file": "nx.json",
+        "hash": "1407368089358924710"
       },
       {
         "file": ".editorconfig",
@@ -72,84 +96,23 @@
         "hash": "7663861978715868291"
       },
       {
-        "file": ".vscode/extensions.json",
-        "hash": "4934098906304722861"
+        "file": "tsconfig.base.json",
+        "hash": "10416965926189581939"
       },
       {
-        "file": "jest.config.ts",
-        "hash": "3494843969422251966"
-      },
-      {
-        "file": "assets/logo-elsa.png",
-        "hash": "9189047641381522465"
+        "file": "proxy.conf.json",
+        "hash": "2568143757139232135"
       },
       {
         "file": "package.json",
         "hash": "7339993933396431469"
       },
       {
-        "file": "yarn.lock",
-        "hash": "17636774486837614343"
-      },
-      {
-        "file": "nx.json",
-        "hash": "1407368089358924710"
-      },
-      {
-        "file": "README.md",
-        "hash": "11917501359457570071"
-      },
-      {
         "file": ".gitignore",
         "hash": "8491837053101957257"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "552408682942840636"
       }
     ],
     "projectFileMap": {
-      "real-time-vocabulary-app-e2e": [
-        {
-          "file": "apps/real-time-vocabulary-app-e2e/.eslintrc.json",
-          "hash": "14060216369337943343"
-        },
-        {
-          "file": "apps/real-time-vocabulary-app-e2e/cypress.config.ts",
-          "hash": "7152315420478229079",
-          "deps": [
-            "npm:cypress"
-          ]
-        },
-        {
-          "file": "apps/real-time-vocabulary-app-e2e/project.json",
-          "hash": "4283715363066344874"
-        },
-        {
-          "file": "apps/real-time-vocabulary-app-e2e/src/e2e/app.cy.ts",
-          "hash": "10568798050331889746"
-        },
-        {
-          "file": "apps/real-time-vocabulary-app-e2e/src/fixtures/example.json",
-          "hash": "11785586596216172004"
-        },
-        {
-          "file": "apps/real-time-vocabulary-app-e2e/src/support/app.po.ts",
-          "hash": "11157016311132186162"
-        },
-        {
-          "file": "apps/real-time-vocabulary-app-e2e/src/support/commands.ts",
-          "hash": "5397443931564808659"
-        },
-        {
-          "file": "apps/real-time-vocabulary-app-e2e/src/support/e2e.ts",
-          "hash": "1054106023200826784"
-        },
-        {
-          "file": "apps/real-time-vocabulary-app-e2e/tsconfig.json",
-          "hash": "4332380883180617610"
-        }
-      ],
       "share-logic": [
         {
           "file": "libs/share-logic/.eslintrc.json",
@@ -232,7 +195,11 @@
         },
         {
           "file": "apps/real-time-vocabulary-app/project.json",
-          "hash": "7491425387035959181"
+          "hash": "3920704005598699594"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/proxy.conf.json",
+          "hash": "2568143757139232135"
         },
         {
           "file": "apps/real-time-vocabulary-app/src/app/app.component.html",
@@ -260,32 +227,32 @@
         },
         {
           "file": "apps/real-time-vocabulary-app/src/app/app.config.ts",
-          "hash": "10618457967269332155",
+          "hash": "17716753588201952930",
           "deps": [
             "npm:@angular/core",
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "apps/real-time-vocabulary-app/src/app/app.module.ts",
-          "hash": "3037158561525834871",
-          "deps": [
-            "npm:@angular/core",
-            "share-ui",
-            "share-logic",
+            "npm:@angular/router",
             "npm:@angular/common"
           ]
         },
         {
+          "file": "apps/real-time-vocabulary-app/src/app/app.module.ts",
+          "hash": "7881848851893998212",
+          "deps": [
+            "npm:@angular/core",
+            "share-ui",
+            "share-logic"
+          ]
+        },
+        {
           "file": "apps/real-time-vocabulary-app/src/app/app.routes.ts",
-          "hash": "13451934861411354010",
+          "hash": "10696327503413793894",
           "deps": [
             "npm:@angular/router"
           ]
         },
         {
           "file": "apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.html",
-          "hash": "3978390472247249831"
+          "hash": "14507277009058669579"
         },
         {
           "file": "apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.scss",
@@ -300,7 +267,7 @@
         },
         {
           "file": "apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.ts",
-          "hash": "2607300498197490861",
+          "hash": "5441920385481509427",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -311,7 +278,7 @@
         },
         {
           "file": "apps/real-time-vocabulary-app/src/app/components/assessment-detail/assessment-detail.component.html",
-          "hash": "12291955586660650467"
+          "hash": "335638161013511390"
         },
         {
           "file": "apps/real-time-vocabulary-app/src/app/components/assessment-detail/assessment-detail.component.scss",
@@ -326,7 +293,7 @@
         },
         {
           "file": "apps/real-time-vocabulary-app/src/app/components/assessment-detail/assessment-detail.component.ts",
-          "hash": "1794544170377829381",
+          "hash": "9475726977453052757",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -336,8 +303,26 @@
           ]
         },
         {
+          "file": "apps/real-time-vocabulary-app/src/app/components/leader-board/leader-board.component.html",
+          "hash": "6636773778786733322"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/components/leader-board/leader-board.component.scss",
+          "hash": "6186911744605517710"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/components/leader-board/leader-board.component.ts",
+          "hash": "2784113896311890006",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/material",
+            "share-ui"
+          ]
+        },
+        {
           "file": "apps/real-time-vocabulary-app/src/app/components/quiz-card/quiz-card.component.html",
-          "hash": "3596731711572520962"
+          "hash": "512286201925517601"
         },
         {
           "file": "apps/real-time-vocabulary-app/src/app/components/quiz-card/quiz-card.component.scss",
@@ -352,13 +337,15 @@
         },
         {
           "file": "apps/real-time-vocabulary-app/src/app/components/quiz-card/quiz-card.component.ts",
-          "hash": "4825083100961885940",
+          "hash": "4546305999328152651",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
             "npm:@angular/material",
             "share-ui",
-            "npm:@angular/forms"
+            "npm:@angular/forms",
+            "npm:@angular/router",
+            "npm:rxjs"
           ]
         },
         {
@@ -386,29 +373,6 @@
           ]
         },
         {
-          "file": "apps/real-time-vocabulary-app/src/app/elsa-leader-board/elsa-leader-board.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/real-time-vocabulary-app/src/app/elsa-leader-board/elsa-leader-board.component.html",
-          "hash": "5349443660330237487"
-        },
-        {
-          "file": "apps/real-time-vocabulary-app/src/app/elsa-leader-board/elsa-leader-board.component.spec.ts",
-          "hash": "5038067340709917388",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "apps/real-time-vocabulary-app/src/app/elsa-leader-board/elsa-leader-board.component.ts",
-          "hash": "17838884958712247150",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common"
-          ]
-        },
-        {
           "file": "apps/real-time-vocabulary-app/src/app/guards/auth.guard.ts",
           "hash": "12246090573746347745",
           "deps": [
@@ -419,7 +383,7 @@
         },
         {
           "file": "apps/real-time-vocabulary-app/src/app/mocks/assessments-mock.ts",
-          "hash": "7546722688670810719"
+          "hash": "6601829173850434199"
         },
         {
           "file": "apps/real-time-vocabulary-app/src/app/mocks/leader-board-mock.ts",
@@ -427,15 +391,15 @@
         },
         {
           "file": "apps/real-time-vocabulary-app/src/app/mocks/question-mock.ts",
-          "hash": "3196814791696334296"
+          "hash": "9923356114800990233"
         },
         {
           "file": "apps/real-time-vocabulary-app/src/app/mocks/users-mock.ts",
-          "hash": "8037574314422886310"
+          "hash": "17799279969668538984"
         },
         {
           "file": "apps/real-time-vocabulary-app/src/app/models/assessment.model.ts",
-          "hash": "3603923020801307511"
+          "hash": "16728926334426263840"
         },
         {
           "file": "apps/real-time-vocabulary-app/src/app/models/leader-board.model.ts",
@@ -520,18 +484,12 @@
           ]
         },
         {
-          "file": "apps/real-time-vocabulary-app/src/app/services/assessment/assessment.service.spec.ts",
-          "hash": "11303052756120316458",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "apps/real-time-vocabulary-app/src/app/services/assessment/assessment.service.ts",
-          "hash": "6104294575510289458",
+          "file": "apps/real-time-vocabulary-app/src/app/services/assessment/asssessment.service.ts",
+          "hash": "13139252524079237369",
           "deps": [
             "npm:@angular/core",
-            "npm:rxjs"
+            "npm:rxjs",
+            "npm:@angular/common"
           ]
         },
         {
@@ -565,8 +523,36 @@
           ]
         },
         {
+          "file": "apps/real-time-vocabulary-app/src/app/services/quiz.service.ts",
+          "hash": "7718976089409638693",
+          "deps": [
+            "npm:@angular/core",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/services/sse-service/sse-service.service.spec.ts",
+          "hash": "13018218709381209925",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/app/services/sse-service/sse-service.service.ts",
+          "hash": "10789826012522561016",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
           "file": "apps/real-time-vocabulary-app/src/assets/.gitkeep",
           "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app/src/environments/environment.ts",
+          "hash": "16034980503438899976"
         },
         {
           "file": "apps/real-time-vocabulary-app/src/favicon.ico",
@@ -634,7 +620,7 @@
         },
         {
           "file": "libs/share-ui/src/index.ts",
-          "hash": "14006473331614852024"
+          "hash": "17363781255082263930"
         },
         {
           "file": "libs/share-ui/src/lib/countdown-timer/countdown-timer.component.html",
@@ -685,7 +671,7 @@
         },
         {
           "file": "libs/share-ui/src/lib/header/header.component.html",
-          "hash": "18078237888432889729"
+          "hash": "3518795673620642165"
         },
         {
           "file": "libs/share-ui/src/lib/header/header.component.scss",
@@ -700,16 +686,17 @@
         },
         {
           "file": "libs/share-ui/src/lib/header/header.component.ts",
-          "hash": "10340365503607090316",
+          "hash": "2618632250087268360",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
-            "npm:@angular/material"
+            "npm:@angular/material",
+            "real-time-vocabulary-app"
           ]
         },
         {
           "file": "libs/share-ui/src/lib/information-card/information-card.component.html",
-          "hash": "14241222008730319351"
+          "hash": "12118078870141959670"
         },
         {
           "file": "libs/share-ui/src/lib/information-card/information-card.component.scss",
@@ -724,7 +711,7 @@
         },
         {
           "file": "libs/share-ui/src/lib/information-card/information-card.component.ts",
-          "hash": "5641897492696156812",
+          "hash": "13359753183434855598",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -734,7 +721,7 @@
         },
         {
           "file": "libs/share-ui/src/lib/leader-board/leader-board.component.html",
-          "hash": "4391170286944421102"
+          "hash": "13342497343910371938"
         },
         {
           "file": "libs/share-ui/src/lib/leader-board/leader-board.component.scss",
@@ -749,16 +736,17 @@
         },
         {
           "file": "libs/share-ui/src/lib/leader-board/leader-board.component.ts",
-          "hash": "5322764501898269264",
+          "hash": "11937870326424775661",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
-            "npm:@angular/material"
+            "npm:@angular/material",
+            "real-time-vocabulary-app"
           ]
         },
         {
           "file": "libs/share-ui/src/lib/multiple-question-choice/multiple-question-choice.component.html",
-          "hash": "14354147726760538156"
+          "hash": "6792358110769023316"
         },
         {
           "file": "libs/share-ui/src/lib/multiple-question-choice/multiple-question-choice.component.scss",
@@ -773,7 +761,7 @@
         },
         {
           "file": "libs/share-ui/src/lib/multiple-question-choice/multiple-question-choice.component.ts",
-          "hash": "9470882739313082432",
+          "hash": "7647565058284821330",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -808,7 +796,7 @@
         },
         {
           "file": "libs/share-ui/src/share-ui.module.ts",
-          "hash": "14209371250190385392",
+          "hash": "15887213223325818899",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common"
@@ -832,6 +820,47 @@
         {
           "file": "libs/share-ui/tsconfig.spec.json",
           "hash": "2927375835638640771"
+        }
+      ],
+      "real-time-vocabulary-app-e2e": [
+        {
+          "file": "apps/real-time-vocabulary-app-e2e/.eslintrc.json",
+          "hash": "14060216369337943343"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app-e2e/cypress.config.ts",
+          "hash": "7152315420478229079",
+          "deps": [
+            "npm:cypress"
+          ]
+        },
+        {
+          "file": "apps/real-time-vocabulary-app-e2e/project.json",
+          "hash": "4283715363066344874"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app-e2e/src/e2e/app.cy.ts",
+          "hash": "10568798050331889746"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app-e2e/src/fixtures/example.json",
+          "hash": "11785586596216172004"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app-e2e/src/support/app.po.ts",
+          "hash": "11157016311132186162"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app-e2e/src/support/commands.ts",
+          "hash": "5397443931564808659"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app-e2e/src/support/e2e.ts",
+          "hash": "1054106023200826784"
+        },
+        {
+          "file": "apps/real-time-vocabulary-app-e2e/tsconfig.json",
+          "hash": "4332380883180617610"
         }
       ],
       "libs": [

@@ -42,6 +42,11 @@
                     ]
                   }
                 }
+              },
+              "serve": {
+                "options": {
+                  "proxyConfig": "proxy.conf.json"
+                }
               }
             }
           }
@@ -12691,17 +12696,17 @@
       },
       {
         "source": "real-time-vocabulary-app",
+        "target": "npm:@angular/common",
+        "type": "static"
+      },
+      {
+        "source": "real-time-vocabulary-app",
         "target": "share-ui",
         "type": "static"
       },
       {
         "source": "real-time-vocabulary-app",
         "target": "share-logic",
-        "type": "static"
-      },
-      {
-        "source": "real-time-vocabulary-app",
-        "target": "npm:@angular/common",
         "type": "static"
       },
       {

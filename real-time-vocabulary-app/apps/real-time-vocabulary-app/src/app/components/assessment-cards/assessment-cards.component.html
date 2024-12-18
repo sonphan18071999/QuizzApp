@@ -1,9 +1,8 @@
 <div class="home-page-container">
   <h1 class="welcome-message">Welcome, Student!</h1>
   <div>
-    <ng-container *ngIf="leaderBoards.length">
-      <lib-leader-board [dataSource]="leaderBoards"
-                        [displayedColumns]="['id','name','score','time']"/>
+    <ng-container>
+      <lib-leader-board/>
     </ng-container>
   </div>
   <div>

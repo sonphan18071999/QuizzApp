@@ -30,7 +30,7 @@ export const appRoutes: Route[] = [
           ).then((m) => m.AssessmentDetailComponent),
       },
       {
-        path: 'quiz/:quizId',
+        path: 'quiz/:id',
         loadComponent: () =>
           import('./components/quiz-card/quiz-card.component').then(
             (m) => m.QuizCardComponent,

@@ -10,6 +10,7 @@
       <div formArrayName="questions">
         <div *ngFor="let question of questions; let i = index">
           <lib-multiple-question-choice
+            [numberOrder]="i+1"
             [question]="question"
             [quizFormControl]="questionsFormArray.at(i)"
           />

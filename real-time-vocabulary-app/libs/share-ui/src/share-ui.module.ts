@@ -6,7 +6,6 @@ import { InformationCardComponent } from './lib/information-card/information-car
 import { MultipleQuestionChoiceComponent } from './lib/multiple-question-choice/multiple-question-choice.component';
 import { CountdownTimerComponent } from './lib/countdown-timer/countdown-timer.component';
 import { QuizNavigationActionButtonsComponent } from './lib/quiz-navigation-action-buttons/quiz-navigation-action-buttons.component';
-import { LeaderBoardComponent } from './lib/leader-board/leader-board.component';
 
 @NgModule({
   declarations: [],
@@ -18,7 +17,6 @@ import { LeaderBoardComponent } from './lib/leader-board/leader-board.component'
     MultipleQuestionChoiceComponent,
     CountdownTimerComponent,
     QuizNavigationActionButtonsComponent,
-    LeaderBoardComponent,
   ],
   exports: [
     HeaderComponent,
@@ -27,7 +25,6 @@ import { LeaderBoardComponent } from './lib/leader-board/leader-board.component'
     MultipleQuestionChoiceComponent,
     CountdownTimerComponent,
     QuizNavigationActionButtonsComponent,
-    LeaderBoardComponent,
   ],
 })
 export class ShareUiModule {}

@@ -8,19 +8,25 @@
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:application",
-      "outputs": ["{options.outputPath}"],
+      "outputs": [
+        "{options.outputPath}"
+      ],
       "options": {
         "outputPath": "dist/apps/real-time-vocabulary-app",
         "index": "apps/real-time-vocabulary-app/src/index.html",
         "browser": "apps/real-time-vocabulary-app/src/main.ts",
-        "polyfills": ["zone.js"],
+        "polyfills": [
+          "zone.js"
+        ],
         "tsConfig": "apps/real-time-vocabulary-app/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
         "assets": [
           "apps/real-time-vocabulary-app/src/favicon.ico",
           "apps/real-time-vocabulary-app/src/assets"
         ],
-        "styles": ["apps/real-time-vocabulary-app/src/styles.scss"],
+        "styles": [
+          "apps/real-time-vocabulary-app/src/styles.scss"
+        ],
         "scripts": []
       },
       "configurations": {
@@ -70,7 +76,9 @@
     },
     "test": {
       "executor": "@nx/jest:jest",
-      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "outputs": [
+        "{workspaceRoot}/coverage/{projectRoot}"
+      ],
       "options": {
         "jestConfig": "apps/real-time-vocabulary-app/jest.config.ts"
       }
@@ -96,8 +104,15 @@
           "options": {
             "style": "scss",
             "stylePreprocessorOptions": {
-              "includePaths": ["libs/share-ui/src/styles"]
+              "includePaths": [
+                "libs/share-ui/src/styles"
+              ]
             }
+          }
+        },
+        "serve": {
+          "options": {
+            "proxyConfig": "proxy.conf.json"
           }
         }
       }

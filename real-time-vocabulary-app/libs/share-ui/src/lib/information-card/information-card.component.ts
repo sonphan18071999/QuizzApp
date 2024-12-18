@@ -13,7 +13,7 @@ import { Assessment } from '../../../../../apps/real-time-vocabulary-app/src/app
 })
 export class InformationCardComponent {
   @Input() public assessment: Assessment = {
-    title: '',
+    name: '',
     description: '',
     id: '',
     duration: '',

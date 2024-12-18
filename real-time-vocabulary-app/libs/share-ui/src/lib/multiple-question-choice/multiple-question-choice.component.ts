@@ -1,4 +1,4 @@
-import { Component, inject, Input, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
@@ -8,8 +8,8 @@ import {
   FormsModule,
   NG_VALUE_ACCESSOR,
   ReactiveFormsModule,
+  Validators,
 } from '@angular/forms';
-import { AssessmentService } from '../../../../../apps/real-time-vocabulary-app/src/app/services/assessment/assessment.service';
 import { Quiz } from '../../../../../apps/real-time-vocabulary-app/src/app/models/quiz.model';
 
 @Component({
@@ -35,24 +35,19 @@ import { Quiz } from '../../../../../apps/real-time-vocabulary-app/src/app/model
   ],
 })
 export class MultipleQuestionChoiceComponent implements OnInit {
+  @Input() numberOrder: number = 1;
   @Input() question: Quiz = {} as Quiz;
   @Input() quizFormControl!: FormControl;
 
-  public assessmentService = inject(AssessmentService);
-
   ngOnInit(): void {
+    this.quizFormControl = new FormControl(null, Validators.required);
     this.listenFormControlChange();
-  }
-
-  public updateSelection({ value }: any): void {
-    this.assessmentService.updateQuestion(this.question);
   }
 
   public listenFormControlChange(): void {
     this.quizFormControl.valueChanges.pipe().subscribe((res) => {
       const quizAnswered = this.question;
       quizAnswered.selection = res;
-      this.assessmentService.updateQuestion(quizAnswered);
     });
   }
 }

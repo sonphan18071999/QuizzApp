@@ -10,7 +10,8 @@ import { MatButton } from '@angular/material/button';
 import { MatActionList, MatList, MatListItem } from '@angular/material/list';
 import { InformationCardComponent } from '@real-time-vocabulary-app/share-ui';
 import { Assessment } from '../../models/assessment.model';
-import { Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
+import { ASSESSMENTS_MOCK } from '../../mocks/assessments-mock';
 
 @Component({
   selector: 'app-assessment-detail',
@@ -31,27 +32,19 @@ import { Router } from '@angular/router';
   styleUrl: './assessment-detail.component.scss',
 })
 export class AssessmentDetailComponent extends InformationCardComponent {
-  @Input() public assessmentDetail: Assessment = {
-    id: 'eng-vocab-001',
-    title: 'English Vocabulary Quiz',
-    description:
-      'Test your knowledge of English vocabulary with this quiz. Choose the correct meaning of the words presented.',
-    duration: '30 minutes',
-    attempt: 3,
-    rule:
-      '1. You have 3 attempts to complete the quiz.\n' +
-      '2. You must complete the quiz within 30 minutes. \n' +
-      '3. For each question, select the correct meaning of the word. No partial credit will be awarded.',
-  };
+  @Input() public assessmentDetail: Assessment = ASSESSMENTS_MOCK[0];
 
   @Output() startAssessment: EventEmitter<void> = new EventEmitter<void>();
   public router = inject(Router);
+  public activatedRoute = inject(ActivatedRoute);
 
   public onStart(): void {
     this.startAssessment.emit();
   }
 
   public showTheAssessment(): void {
-    this.router.navigate([`assessment/${this.assessmentDetail.id}/quiz/0`]);
+    this.router.navigate([
+      `assessment/${this.assessmentDetail.id}/quiz/${this.assessmentDetail.id}`,
+    ]);
   }
 }
