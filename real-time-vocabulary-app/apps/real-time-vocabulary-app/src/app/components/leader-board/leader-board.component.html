@@ -1,17 +1,11 @@
-<div class="leaderboard-container">
-  <h3>Here is the real-time leader board</h3>
-  <mat-card *ngFor="let entry of leaderBoards; let i = index" class="leaderboard-card">
-    <mat-card-content class="leaderboard-container__data">
-      <h4> No: {{ i + 1 }} </h4>
-      <div class="user-name-container">
-        <p>User name</p>
-      </div>
-      <div class="name-container">
-        <p>{{ entry?.name || '-' }}</p>
-      </div>
-      <div class="points-container">
-        <p>{{ entry.point }} points</p>
-      </div>
-    </mat-card-content>
-  </mat-card>
+<div class="leaderboard-card">
+  <h2>Top 5 Students</h2>
+  
+  <ul>
+    <li *ngFor="let student of topStudents; let i = index">
+      <span class="rank">#{{ i + 1 }}</span>
+      <span class="name">{{ student.name }}</span>
+      <span class="score">{{ student.score }}</span>
+    </li>
+  </ul>
 </div>

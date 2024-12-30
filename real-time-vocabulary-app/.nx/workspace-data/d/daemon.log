@@ -12375,3 +12375,610 @@ Require stack:
 [NX Daemon Server] - 2024-12-18T08:17:56.984Z - There are 2 open connections. Reset inactivity timer.
 [NX Daemon Server] - 2024-12-18T11:15:33.896Z - Closed a connection. Number of open connections: 1
 [NX Daemon Server] - 2024-12-18T11:15:33.972Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-12-18T11:17:56.603Z - [WATCHER]: Stopping the watcher for /Users/sondezet/Documents/HocTap/ElsaAssessment/QuizzApp/real-time-vocabulary-app (sources)
+[NX Daemon Server] - 2024-12-18T11:17:56.605Z - [WATCHER]: Stopping the watcher for /Users/sondezet/Documents/HocTap/ElsaAssessment/QuizzApp/real-time-vocabulary-app (outputs)
+[NX Daemon Server] - 2024-12-30T16:20:49.679Z - Started listening on: /var/folders/rc/vzv34rn179l6vn80j7vdqvxr0000gn/T/237bb07b95ae13440527/d.sock
+[NX Daemon Server] - 2024-12-30T16:20:49.682Z - [WATCHER]: Subscribed to changes within: /Users/sondezet/Documents/HocTap/ElsaAssessment/QuizzApp/real-time-vocabulary-app (native)
+[NX Daemon Server] - 2024-12-30T16:20:49.684Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-12-30T16:20:49.684Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-12-30T16:20:49.685Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-12-30T16:20:49.708Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-12-30T16:20:49.745Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:20:49.882Z - Time taken for 'Load Nx Plugin: /Users/sondezet/Documents/HocTap/ElsaAssessment/QuizzApp/real-time-vocabulary-app/node_modules/nx/src/plugins/package-json' 187.24774992465973ms
+[NX Daemon Server] - 2024-12-30T16:20:49.882Z - Time taken for 'Load Nx Plugin: /Users/sondezet/Documents/HocTap/ElsaAssessment/QuizzApp/real-time-vocabulary-app/node_modules/nx/src/plugins/package-json' 187.7537499666214ms
+[NX Daemon Server] - 2024-12-30T16:20:49.883Z - Time taken for 'Load Nx Plugin: /Users/sondezet/Documents/HocTap/ElsaAssessment/QuizzApp/real-time-vocabulary-app/node_modules/nx/src/plugins/project-json/build-nodes/project-json' 188.81491696834564ms
+[NX Daemon Server] - 2024-12-30T16:20:49.888Z - Time taken for 'Load Nx Plugin: /Users/sondezet/Documents/HocTap/ElsaAssessment/QuizzApp/real-time-vocabulary-app/node_modules/nx/src/plugins/project-json/build-nodes/project-json' 193.48962497711182ms
+[NX Daemon Server] - 2024-12-30T16:20:49.897Z - Time taken for 'Load Nx Plugin: /Users/sondezet/Documents/HocTap/ElsaAssessment/QuizzApp/real-time-vocabulary-app/node_modules/nx/src/plugins/js' 203.06262493133545ms
+[NX Daemon Server] - 2024-12-30T16:20:49.902Z - Time taken for 'loadNxPlugins' 211.36437499523163ms
+Plugin listed in `nx.json` not found: @nx/cypress/plugin
+[NX Daemon Server] - 2024-12-30T16:20:49.914Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx/cypress/plugin'
+Require stack:
+- /Users/sondezet/Documents/HocTap/ElsaAssessment/QuizzApp/real-time-vocabulary-app/node_modules/nx/src/project-graph/plugins/loader.js
+- /Users/sondezet/Documents/HocTap/ElsaAssessment/QuizzApp/real-time-vocabulary-app/node_modules/nx/src/project-graph/plugins/index.js
+- /Users/sondezet/Documents/HocTap/ElsaAssessment/QuizzApp/real-time-vocabulary-app/node_modules/nx/src/plugins/package-json/create-nodes.js
+- /Users/sondezet/Documents/HocTap/ElsaAssessment/QuizzApp/real-time-vocabulary-app/node_modules/nx/src/plugins/package-json/index.js
+- /Users/sondezet/Documents/HocTap/ElsaAssessment/QuizzApp/real-time-vocabulary-app/node_modules/nx/src/project-graph/file-utils.js
+- /Users/sondezet/Documents/HocTap/ElsaAssessment/QuizzApp/real-time-vocabulary-app/node_modules/nx/src/utils/package-manager.js
+- /Users/sondezet/Documents/HocTap/ElsaAssessment/QuizzApp/real-time-vocabulary-app/node_modules/nx/src/devkit-internals.js
+- /Users/sondezet/Documents/HocTap/ElsaAssessment/QuizzApp/real-time-vocabulary-app/node_modules/nx/src/utils/assert-workspace-validity.js
+- /Users/sondezet/Documents/HocTap/ElsaAssessment/QuizzApp/real-time-vocabulary-app/node_modules/nx/src/project-graph/build-project-graph.js
+- /Users/sondezet/Documents/HocTap/ElsaAssessment/QuizzApp/real-time-vocabulary-app/node_modules/nx/src/project-graph/project-graph.js
+- /Users/sondezet/Documents/HocTap/ElsaAssessment/QuizzApp/real-time-vocabulary-app/node_modules/nx/src/utils/project-graph-utils.js
+- /Users/sondezet/Documents/HocTap/ElsaAssessment/QuizzApp/real-time-vocabulary-app/node_modules/nx/src/daemon/server/file-watching/file-watcher-sockets.js
+- /Users/sondezet/Documents/HocTap/ElsaAssessment/QuizzApp/real-time-vocabulary-app/node_modules/nx/src/daemon/server/server.js
+- /Users/sondezet/Documents/HocTap/ElsaAssessment/QuizzApp/real-time-vocabulary-app/node_modules/nx/src/daemon/server/start.js
+Error: Cannot find module '@nx/cypress/plugin'
+Require stack:
+- /Users/sondezet/Documents/HocTap/ElsaAssessment/QuizzApp/real-time-vocabulary-app/node_modules/nx/src/project-graph/plugins/loader.js
+- /Users/sondezet/Documents/HocTap/ElsaAssessment/QuizzApp/real-time-vocabulary-app/node_modules/nx/src/project-graph/plugins/index.js
+- /Users/sondezet/Documents/HocTap/ElsaAssessment/QuizzApp/real-time-vocabulary-app/node_modules/nx/src/plugins/package-json/create-nodes.js
+- /Users/sondezet/Documents/HocTap/ElsaAssessment/QuizzApp/real-time-vocabulary-app/node_modules/nx/src/plugins/package-json/index.js
+- /Users/sondezet/Documents/HocTap/ElsaAssessment/QuizzApp/real-time-vocabulary-app/node_modules/nx/src/project-graph/file-utils.js
+- /Users/sondezet/Documents/HocTap/ElsaAssessment/QuizzApp/real-time-vocabulary-app/node_modules/nx/src/utils/package-manager.js
+- /Users/sondezet/Documents/HocTap/ElsaAssessment/QuizzApp/real-time-vocabulary-app/node_modules/nx/src/devkit-internals.js
+- /Users/sondezet/Documents/HocTap/ElsaAssessment/QuizzApp/real-time-vocabulary-app/node_modules/nx/src/utils/assert-workspace-validity.js
+- /Users/sondezet/Documents/HocTap/ElsaAssessment/QuizzApp/real-time-vocabulary-app/node_modules/nx/src/project-graph/build-project-graph.js
+- /Users/sondezet/Documents/HocTap/ElsaAssessment/QuizzApp/real-time-vocabulary-app/node_modules/nx/src/project-graph/project-graph.js
+- /Users/sondezet/Documents/HocTap/ElsaAssessment/QuizzApp/real-time-vocabulary-app/node_modules/nx/src/utils/project-graph-utils.js
+- /Users/sondezet/Documents/HocTap/ElsaAssessment/QuizzApp/real-time-vocabulary-app/node_modules/nx/src/daemon/server/file-watching/file-watcher-sockets.js
+- /Users/sondezet/Documents/HocTap/ElsaAssessment/QuizzApp/real-time-vocabulary-app/node_modules/nx/src/daemon/server/server.js
+- /Users/sondezet/Documents/HocTap/ElsaAssessment/QuizzApp/real-time-vocabulary-app/node_modules/nx/src/daemon/server/start.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1028:15)
+    at Function.resolve (node:internal/modules/cjs/helpers:125:19)
+    at getPluginPathAndName (/Users/sondezet/Documents/HocTap/ElsaAssessment/QuizzApp/real-time-vocabulary-app/node_modules/nx/src/project-graph/plugins/loader.js:144:30)
+    at resolveNxPlugin (/Users/sondezet/Documents/HocTap/ElsaAssessment/QuizzApp/real-time-vocabulary-app/node_modules/nx/src/project-graph/plugins/loader.js:190:62)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async loadRemoteNxPlugin (/Users/sondezet/Documents/HocTap/ElsaAssessment/QuizzApp/real-time-vocabulary-app/node_modules/nx/src/project-graph/plugins/isolation/plugin-pool.js:34:62)
+    at async /Users/sondezet/Documents/HocTap/ElsaAssessment/QuizzApp/real-time-vocabulary-app/node_modules/nx/src/project-graph/plugins/internal-api.js:98:52
+    at async Promise.all (index 0)
+    at async loadNxPlugins (/Users/sondezet/Documents/HocTap/ElsaAssessment/QuizzApp/real-time-vocabulary-app/node_modules/nx/src/project-graph/plugins/internal-api.js:95:9)
+    at async getPlugins (/Users/sondezet/Documents/HocTap/ElsaAssessment/QuizzApp/real-time-vocabulary-app/node_modules/nx/src/project-graph/plugins/get-plugins.js:29:33)
+[NX Daemon Server] - 2024-12-30T16:20:49.915Z - Done responding to the client null
+[NX Daemon Server] - 2024-12-30T16:20:49.915Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 229. Response time: 1.
+[NX Daemon Server] - 2024-12-30T16:20:49.915Z - Time taken for 'build-project-configs' 15.190958023071289ms
+[NX Daemon Server] - 2024-12-30T16:20:49.917Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-12-30T16:20:50.098Z - Time taken for 'Load Nx Plugin: @nx/eslint/plugin' 411.58320796489716ms
+[NX Daemon Server] - 2024-12-30T16:20:54.079Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-12-30T16:20:54.079Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-12-30T16:20:54.079Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-12-30T16:20:54.081Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-12-30T16:20:54.082Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-30T16:20:54.082Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-30T16:20:54.082Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-30T16:20:54.089Z - Time taken for 'hash changed files from watcher' 0.1632080078125ms
+[NX Daemon Server] - 2024-12-30T16:20:54.113Z - Time taken for 'build-project-configs' 18.116042017936707ms
+[NX Daemon Server] - 2024-12-30T16:20:54.279Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-12-30T16:20:54.279Z - Time taken for 'total for creating and serializing project graph' 198.24399995803833ms
+[NX Daemon Server] - 2024-12-30T16:20:54.281Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-12-30T16:20:54.281Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 198. Response time: 2.
+[NX Daemon Server] - 2024-12-30T16:20:54.324Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2024-12-30T16:20:54.324Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2024-12-30T16:20:54.324Z - Handled HASH_TASKS. Handling time: 8. Response time: 0.
+[NX Daemon Server] - 2024-12-30T16:20:54.344Z - [REQUEST]: Responding to the client. handleGetEstimatedTaskTimings
+[NX Daemon Server] - 2024-12-30T16:20:54.344Z - Done responding to the client handleGetEstimatedTaskTimings
+[NX Daemon Server] - 2024-12-30T16:20:54.344Z - Handled GET_ESTIMATED_TASK_TIMINGS. Handling time: 15. Response time: 0.
+[NX Daemon Server] - 2024-12-30T16:20:54.663Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-12-30T16:20:54.663Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-12-30T16:20:54.664Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-12-30T16:20:54.665Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-12-30T16:20:54.665Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-12-30T16:20:54.665Z - Time taken for 'total for creating and serializing project graph' 0.2201249599456787ms
+[NX Daemon Server] - 2024-12-30T16:20:54.667Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-12-30T16:20:54.667Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2024-12-30T16:20:56.619Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:22:20.505Z - [WATCHER]: apps/real-time-vocabulary-app/src/app/components/leader-board/leader-board.component.ts was modified
+[NX Daemon Server] - 2024-12-30T16:22:20.507Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:22:20.609Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-30T16:22:20.609Z - [REQUEST]: apps/real-time-vocabulary-app/src/app/components/leader-board/leader-board.component.ts
+[NX Daemon Server] - 2024-12-30T16:22:20.609Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-30T16:22:20.619Z - Time taken for 'hash changed files from watcher' 1.087291955947876ms
+[NX Daemon Server] - 2024-12-30T16:22:20.668Z - Time taken for 'build-project-configs' 41.28529095649719ms
+[NX Daemon Server] - 2024-12-30T16:22:20.731Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-12-30T16:22:20.734Z - Time taken for 'total execution time for createProjectGraph()' 61.12637495994568ms
+[NX Daemon Server] - 2024-12-30T16:22:21.091Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:22:21.447Z - [WATCHER]: apps/real-time-vocabulary-app/src/app/components/leader-board/leader-board.component.ts was modified
+[NX Daemon Server] - 2024-12-30T16:22:21.447Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:22:21.649Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-30T16:22:21.649Z - [REQUEST]: apps/real-time-vocabulary-app/src/app/components/leader-board/leader-board.component.ts
+[NX Daemon Server] - 2024-12-30T16:22:21.649Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-30T16:22:21.652Z - Time taken for 'hash changed files from watcher' 0.5966659784317017ms
+[NX Daemon Server] - 2024-12-30T16:22:21.676Z - Time taken for 'build-project-configs' 22.896458983421326ms
+[NX Daemon Server] - 2024-12-30T16:22:21.749Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-12-30T16:22:21.750Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-12-30T16:22:21.750Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-12-30T16:22:21.750Z - Time taken for 'total execution time for createProjectGraph()' 59.569916009902954ms
+[NX Daemon Server] - 2024-12-30T16:22:22.237Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:23:17.420Z - [WATCHER]: apps/real-time-vocabulary-app/src/app/components/leader-board/leader-board.component.ts was modified
+[NX Daemon Server] - 2024-12-30T16:23:17.421Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:23:17.824Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-30T16:23:17.824Z - [REQUEST]: apps/real-time-vocabulary-app/src/app/components/leader-board/leader-board.component.ts
+[NX Daemon Server] - 2024-12-30T16:23:17.824Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-30T16:23:17.833Z - Time taken for 'hash changed files from watcher' 2.418375015258789ms
+[NX Daemon Server] - 2024-12-30T16:23:17.858Z - Time taken for 'build-project-configs' 21.80429196357727ms
+[NX Daemon Server] - 2024-12-30T16:23:17.919Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-12-30T16:23:17.920Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-12-30T16:23:17.920Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-12-30T16:23:17.920Z - Time taken for 'total execution time for createProjectGraph()' 57.56149995326996ms
+[NX Daemon Server] - 2024-12-30T16:23:17.981Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:23:29.694Z - [WATCHER]: apps/real-time-vocabulary-app/src/app/components/leader-board/leader-board.component.ts was modified
+[NX Daemon Server] - 2024-12-30T16:23:29.695Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:23:29.818Z - [WATCHER]: apps/real-time-vocabulary-app/src/app/components/leader-board/leader-board.component.ts was modified
+[NX Daemon Server] - 2024-12-30T16:23:29.818Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:23:30.351Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:23:30.496Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-30T16:23:30.496Z - [REQUEST]: apps/real-time-vocabulary-app/src/app/components/leader-board/leader-board.component.ts
+[NX Daemon Server] - 2024-12-30T16:23:30.496Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-30T16:23:30.498Z - Time taken for 'hash changed files from watcher' 0.20787501335144043ms
+[NX Daemon Server] - 2024-12-30T16:23:30.526Z - Time taken for 'build-project-configs' 26.55345904827118ms
+[NX Daemon Server] - 2024-12-30T16:23:30.550Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-12-30T16:23:30.550Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-12-30T16:23:30.550Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-12-30T16:23:30.550Z - Time taken for 'total execution time for createProjectGraph()' 21.751750111579895ms
+[NX Daemon Server] - 2024-12-30T16:23:37.247Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:23:37.248Z - [WATCHER]: apps/real-time-vocabulary-app/src/app/components/leader-board/leader-board.component.html was modified
+[NX Daemon Server] - 2024-12-30T16:23:38.849Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-30T16:23:38.849Z - [REQUEST]: apps/real-time-vocabulary-app/src/app/components/leader-board/leader-board.component.html
+[NX Daemon Server] - 2024-12-30T16:23:38.850Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-30T16:23:38.852Z - Time taken for 'hash changed files from watcher' 0.37099993228912354ms
+[NX Daemon Server] - 2024-12-30T16:23:38.871Z - Time taken for 'build-project-configs' 17.42287504673004ms
+[NX Daemon Server] - 2024-12-30T16:23:38.903Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-12-30T16:23:38.903Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-12-30T16:23:38.903Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-12-30T16:23:38.903Z - Time taken for 'total execution time for createProjectGraph()' 30.73337495326996ms
+[NX Daemon Server] - 2024-12-30T16:23:52.410Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:23:52.417Z - [WATCHER]: apps/real-time-vocabulary-app/src/app/components/leader-board/leader-board.component.ts was modified
+[NX Daemon Server] - 2024-12-30T16:23:52.562Z - [WATCHER]: apps/real-time-vocabulary-app/src/app/components/leader-board/leader-board.component.ts was modified
+[NX Daemon Server] - 2024-12-30T16:23:52.562Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:23:53.046Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:23:55.622Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-30T16:23:55.623Z - [REQUEST]: apps/real-time-vocabulary-app/src/app/components/leader-board/leader-board.component.ts
+[NX Daemon Server] - 2024-12-30T16:23:55.623Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-30T16:23:55.629Z - Time taken for 'hash changed files from watcher' 0.5157090425491333ms
+[NX Daemon Server] - 2024-12-30T16:23:55.702Z - Time taken for 'build-project-configs' 68.15079200267792ms
+[NX Daemon Server] - 2024-12-30T16:23:55.746Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-12-30T16:23:55.747Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-12-30T16:23:55.747Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-12-30T16:23:55.747Z - Time taken for 'total execution time for createProjectGraph()' 42.98937499523163ms
+[NX Daemon Server] - 2024-12-30T16:26:14.679Z - [WATCHER]: apps/real-time-vocabulary-app/src/app/components/leader-board/leader-board.component.html was modified
+[NX Daemon Server] - 2024-12-30T16:26:14.680Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:26:21.085Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-30T16:26:21.085Z - [REQUEST]: apps/real-time-vocabulary-app/src/app/components/leader-board/leader-board.component.html
+[NX Daemon Server] - 2024-12-30T16:26:21.085Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-30T16:26:21.090Z - Time taken for 'hash changed files from watcher' 2.0829999446868896ms
+[NX Daemon Server] - 2024-12-30T16:26:21.114Z - Time taken for 'build-project-configs' 20.02816593647003ms
+[NX Daemon Server] - 2024-12-30T16:26:21.148Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-12-30T16:26:21.148Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-12-30T16:26:21.148Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-12-30T16:26:21.149Z - Time taken for 'total execution time for createProjectGraph()' 34.187291979789734ms
+[NX Daemon Server] - 2024-12-30T16:26:22.066Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:26:22.068Z - [WATCHER]: apps/real-time-vocabulary-app/src/app/components/leader-board/leader-board.component.ts was modified
+[NX Daemon Server] - 2024-12-30T16:26:22.222Z - [WATCHER]: apps/real-time-vocabulary-app/src/app/components/leader-board/leader-board.component.ts was modified
+[NX Daemon Server] - 2024-12-30T16:26:22.223Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:26:22.812Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:26:28.471Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-30T16:26:28.471Z - [REQUEST]: apps/real-time-vocabulary-app/src/app/components/leader-board/leader-board.component.ts
+[NX Daemon Server] - 2024-12-30T16:26:28.471Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-30T16:26:28.476Z - Time taken for 'hash changed files from watcher' 0.854665994644165ms
+[NX Daemon Server] - 2024-12-30T16:26:28.508Z - Time taken for 'build-project-configs' 31.039041996002197ms
+[NX Daemon Server] - 2024-12-30T16:26:28.535Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-12-30T16:26:28.535Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-12-30T16:26:28.535Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-12-30T16:26:28.536Z - Time taken for 'total execution time for createProjectGraph()' 26.6632080078125ms
+[NX Daemon Server] - 2024-12-30T16:26:37.595Z - [WATCHER]: apps/real-time-vocabulary-app/src/app/components/leader-board/leader-board.component.scss was modified
+[NX Daemon Server] - 2024-12-30T16:26:37.596Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:26:44.001Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-30T16:26:44.002Z - [REQUEST]: apps/real-time-vocabulary-app/src/app/components/leader-board/leader-board.component.scss
+[NX Daemon Server] - 2024-12-30T16:26:44.002Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-30T16:26:44.015Z - Time taken for 'hash changed files from watcher' 1.1958340406417847ms
+[NX Daemon Server] - 2024-12-30T16:26:44.061Z - Time taken for 'build-project-configs' 52.28474998474121ms
+[NX Daemon Server] - 2024-12-30T16:26:44.089Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-12-30T16:26:44.089Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-12-30T16:26:44.089Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-12-30T16:26:44.089Z - Time taken for 'total execution time for createProjectGraph()' 27.624333024024963ms
+[NX Daemon Server] - 2024-12-30T16:27:02.170Z - [WATCHER]: apps/real-time-vocabulary-app/src/app/components/leader-board/leader-board.component.scss was modified
+[NX Daemon Server] - 2024-12-30T16:27:02.171Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:27:08.572Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-30T16:27:08.573Z - [REQUEST]: apps/real-time-vocabulary-app/src/app/components/leader-board/leader-board.component.scss
+[NX Daemon Server] - 2024-12-30T16:27:08.573Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-30T16:27:08.575Z - Time taken for 'hash changed files from watcher' 0.27895796298980713ms
+[NX Daemon Server] - 2024-12-30T16:27:08.595Z - Time taken for 'build-project-configs' 17.710041999816895ms
+[NX Daemon Server] - 2024-12-30T16:27:08.645Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-12-30T16:27:08.645Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-12-30T16:27:08.645Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-12-30T16:27:08.645Z - Time taken for 'total execution time for createProjectGraph()' 48.2890830039978ms
+[NX Daemon Server] - 2024-12-30T16:27:16.258Z - [WATCHER]: apps/real-time-vocabulary-app/src/app/components/leader-board/leader-board.component.scss was modified
+[NX Daemon Server] - 2024-12-30T16:27:16.260Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:27:18.697Z - [WATCHER]: apps/real-time-vocabulary-app/src/app/components/leader-board/leader-board.component.scss was modified
+[NX Daemon Server] - 2024-12-30T16:27:18.697Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:27:22.668Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-30T16:27:22.668Z - [REQUEST]: apps/real-time-vocabulary-app/src/app/components/leader-board/leader-board.component.scss
+[NX Daemon Server] - 2024-12-30T16:27:22.668Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-30T16:27:22.674Z - Time taken for 'hash changed files from watcher' 2.016332983970642ms
+[NX Daemon Server] - 2024-12-30T16:27:22.694Z - Time taken for 'build-project-configs' 19.877166986465454ms
+[NX Daemon Server] - 2024-12-30T16:27:22.726Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-12-30T16:27:22.726Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-12-30T16:27:22.726Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-12-30T16:27:22.726Z - Time taken for 'total execution time for createProjectGraph()' 29.12399995326996ms
+[NX Daemon Server] - 2024-12-30T16:27:24.147Z - [WATCHER]: apps/real-time-vocabulary-app/src/app/components/leader-board/leader-board.component.scss was modified
+[NX Daemon Server] - 2024-12-30T16:27:24.147Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:27:30.551Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-30T16:27:30.552Z - [REQUEST]: apps/real-time-vocabulary-app/src/app/components/leader-board/leader-board.component.scss
+[NX Daemon Server] - 2024-12-30T16:27:30.552Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-30T16:27:30.560Z - Time taken for 'hash changed files from watcher' 0.327333927154541ms
+[NX Daemon Server] - 2024-12-30T16:27:30.588Z - Time taken for 'build-project-configs' 30.48816704750061ms
+[NX Daemon Server] - 2024-12-30T16:27:30.607Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-12-30T16:27:30.607Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-12-30T16:27:30.607Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-12-30T16:27:30.607Z - Time taken for 'total execution time for createProjectGraph()' 16.605375051498413ms
+[NX Daemon Server] - 2024-12-30T16:27:30.607Z - [WATCHER]: apps/real-time-vocabulary-app/src/app/components/leader-board/leader-board.component.scss was modified
+[NX Daemon Server] - 2024-12-30T16:27:30.608Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:27:37.014Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-30T16:27:37.015Z - [REQUEST]: apps/real-time-vocabulary-app/src/app/components/leader-board/leader-board.component.scss
+[NX Daemon Server] - 2024-12-30T16:27:37.015Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-30T16:27:37.020Z - Time taken for 'hash changed files from watcher' 4.85004198551178ms
+[NX Daemon Server] - 2024-12-30T16:27:37.054Z - Time taken for 'build-project-configs' 29.07658302783966ms
+[NX Daemon Server] - 2024-12-30T16:27:37.088Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-12-30T16:27:37.088Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-12-30T16:27:37.088Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-12-30T16:27:37.088Z - Time taken for 'total execution time for createProjectGraph()' 37.66720807552338ms
+[NX Daemon Server] - 2024-12-30T16:28:33.410Z - [WATCHER]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.scss was modified
+[NX Daemon Server] - 2024-12-30T16:28:33.412Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:28:39.814Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-30T16:28:39.814Z - [REQUEST]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.scss
+[NX Daemon Server] - 2024-12-30T16:28:39.814Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-30T16:28:39.823Z - Time taken for 'hash changed files from watcher' 1.7807079553604126ms
+[NX Daemon Server] - 2024-12-30T16:28:39.850Z - Time taken for 'build-project-configs' 22.10033392906189ms
+[NX Daemon Server] - 2024-12-30T16:28:39.948Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-12-30T16:28:39.948Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-12-30T16:28:39.948Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-12-30T16:28:39.948Z - Time taken for 'total execution time for createProjectGraph()' 94.72150003910065ms
+[NX Daemon Server] - 2024-12-30T16:28:45.401Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:28:45.405Z - [WATCHER]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.scss was modified
+[NX Daemon Server] - 2024-12-30T16:28:51.808Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-30T16:28:51.809Z - [REQUEST]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.scss
+[NX Daemon Server] - 2024-12-30T16:28:51.809Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-30T16:28:51.814Z - Time taken for 'hash changed files from watcher' 0.5931670665740967ms
+[NX Daemon Server] - 2024-12-30T16:28:51.845Z - Time taken for 'build-project-configs' 30.59195899963379ms
+[NX Daemon Server] - 2024-12-30T16:28:51.882Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-12-30T16:28:51.883Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-12-30T16:28:51.883Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-12-30T16:28:51.883Z - Time taken for 'total execution time for createProjectGraph()' 36.28191697597504ms
+[NX Daemon Server] - 2024-12-30T16:28:53.893Z - [WATCHER]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.scss was modified
+[NX Daemon Server] - 2024-12-30T16:28:53.894Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:29:00.295Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-30T16:29:00.296Z - [REQUEST]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.scss
+[NX Daemon Server] - 2024-12-30T16:29:00.296Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-30T16:29:00.304Z - Time taken for 'hash changed files from watcher' 1.084625005722046ms
+[NX Daemon Server] - 2024-12-30T16:29:00.338Z - Time taken for 'build-project-configs' 32.769875049591064ms
+[NX Daemon Server] - 2024-12-30T16:29:00.375Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-12-30T16:29:00.375Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-12-30T16:29:00.375Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-12-30T16:29:00.375Z - Time taken for 'total execution time for createProjectGraph()' 39.34375ms
+[NX Daemon Server] - 2024-12-30T16:29:08.383Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:29:08.385Z - [WATCHER]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.scss was modified
+[NX Daemon Server] - 2024-12-30T16:29:14.791Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-30T16:29:14.792Z - [REQUEST]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.scss
+[NX Daemon Server] - 2024-12-30T16:29:14.792Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-30T16:29:14.810Z - Time taken for 'hash changed files from watcher' 1.5851249694824219ms
+[NX Daemon Server] - 2024-12-30T16:29:14.874Z - Time taken for 'build-project-configs' 61.92504107952118ms
+[NX Daemon Server] - 2024-12-30T16:29:14.913Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-12-30T16:29:14.913Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-12-30T16:29:14.913Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-12-30T16:29:14.913Z - Time taken for 'total execution time for createProjectGraph()' 39.62712502479553ms
+[NX Daemon Server] - 2024-12-30T16:30:47.213Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:30:47.219Z - [WATCHER]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.scss was modified
+[NX Daemon Server] - 2024-12-30T16:30:53.623Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-30T16:30:53.623Z - [REQUEST]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.scss
+[NX Daemon Server] - 2024-12-30T16:30:53.623Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-30T16:30:53.627Z - Time taken for 'hash changed files from watcher' 0.5774580240249634ms
+[NX Daemon Server] - 2024-12-30T16:30:53.657Z - Time taken for 'build-project-configs' 29.760792016983032ms
+[NX Daemon Server] - 2024-12-30T16:30:53.692Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-12-30T16:30:53.692Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-12-30T16:30:53.692Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-12-30T16:30:53.692Z - Time taken for 'total execution time for createProjectGraph()' 31.794584035873413ms
+[NX Daemon Server] - 2024-12-30T16:31:19.742Z - [WATCHER]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.html was modified
+[NX Daemon Server] - 2024-12-30T16:31:19.742Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:31:26.145Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-30T16:31:26.145Z - [REQUEST]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.html
+[NX Daemon Server] - 2024-12-30T16:31:26.145Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-30T16:31:26.150Z - Time taken for 'hash changed files from watcher' 0.5655421018600464ms
+[NX Daemon Server] - 2024-12-30T16:31:26.181Z - Time taken for 'build-project-configs' 29.714166045188904ms
+[NX Daemon Server] - 2024-12-30T16:31:26.211Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-12-30T16:31:26.212Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-12-30T16:31:26.212Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-12-30T16:31:26.212Z - Time taken for 'total execution time for createProjectGraph()' 29.542625069618225ms
+[NX Daemon Server] - 2024-12-30T16:31:43.982Z - [WATCHER]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.html was modified
+[NX Daemon Server] - 2024-12-30T16:31:43.983Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:31:44.186Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:31:50.384Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-30T16:31:50.384Z - [REQUEST]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.html
+[NX Daemon Server] - 2024-12-30T16:31:50.384Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-30T16:31:50.386Z - Time taken for 'hash changed files from watcher' 0.26012492179870605ms
+[NX Daemon Server] - 2024-12-30T16:31:50.410Z - Time taken for 'build-project-configs' 23.15783405303955ms
+[NX Daemon Server] - 2024-12-30T16:31:50.435Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-12-30T16:31:50.435Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-12-30T16:31:50.436Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-12-30T16:31:50.436Z - Time taken for 'total execution time for createProjectGraph()' 22.377416968345642ms
+[NX Daemon Server] - 2024-12-30T16:32:12.156Z - [WATCHER]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.scss was modified
+[NX Daemon Server] - 2024-12-30T16:32:12.157Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:32:12.313Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:32:18.558Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-30T16:32:18.559Z - [REQUEST]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.scss
+[NX Daemon Server] - 2024-12-30T16:32:18.559Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-30T16:32:18.562Z - Time taken for 'hash changed files from watcher' 0.4530829191207886ms
+[NX Daemon Server] - 2024-12-30T16:32:18.586Z - Time taken for 'build-project-configs' 21.85587501525879ms
+[NX Daemon Server] - 2024-12-30T16:32:18.618Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-12-30T16:32:18.618Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-12-30T16:32:18.618Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-12-30T16:32:18.619Z - Time taken for 'total execution time for createProjectGraph()' 31.51337504386902ms
+[NX Daemon Server] - 2024-12-30T16:32:20.226Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:32:20.228Z - [WATCHER]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.scss was modified
+[NX Daemon Server] - 2024-12-30T16:32:26.629Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-30T16:32:26.630Z - [REQUEST]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.scss
+[NX Daemon Server] - 2024-12-30T16:32:26.630Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-30T16:32:26.641Z - Time taken for 'hash changed files from watcher' 0.3766669034957886ms
+[NX Daemon Server] - 2024-12-30T16:32:26.678Z - Time taken for 'build-project-configs' 40.496333956718445ms
+[NX Daemon Server] - 2024-12-30T16:32:26.713Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-12-30T16:32:26.713Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-12-30T16:32:26.714Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-12-30T16:32:26.714Z - Time taken for 'total execution time for createProjectGraph()' 36.00499999523163ms
+[NX Daemon Server] - 2024-12-30T16:38:32.446Z - [WATCHER]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.scss was modified
+[NX Daemon Server] - 2024-12-30T16:38:32.448Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:38:38.853Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-30T16:38:38.853Z - [REQUEST]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.scss
+[NX Daemon Server] - 2024-12-30T16:38:38.853Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-30T16:38:38.865Z - Time taken for 'hash changed files from watcher' 2.627624988555908ms
+[NX Daemon Server] - 2024-12-30T16:38:38.904Z - Time taken for 'build-project-configs' 36.38187491893768ms
+[NX Daemon Server] - 2024-12-30T16:38:38.941Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-12-30T16:38:38.941Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-12-30T16:38:38.941Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-12-30T16:38:38.941Z - Time taken for 'total execution time for createProjectGraph()' 38.2265830039978ms
+[NX Daemon Server] - 2024-12-30T16:38:43.864Z - [WATCHER]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.scss was modified
+[NX Daemon Server] - 2024-12-30T16:38:43.864Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:38:50.267Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-30T16:38:50.269Z - [REQUEST]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.scss
+[NX Daemon Server] - 2024-12-30T16:38:50.269Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-30T16:38:50.276Z - Time taken for 'hash changed files from watcher' 0.7095829248428345ms
+[NX Daemon Server] - 2024-12-30T16:38:50.315Z - Time taken for 'build-project-configs' 35.40520894527435ms
+[NX Daemon Server] - 2024-12-30T16:38:50.355Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-12-30T16:38:50.355Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-12-30T16:38:50.355Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-12-30T16:38:50.355Z - Time taken for 'total execution time for createProjectGraph()' 43.36895799636841ms
+[NX Daemon Server] - 2024-12-30T16:39:28.266Z - [WATCHER]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.scss was modified
+[NX Daemon Server] - 2024-12-30T16:39:28.267Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:39:34.669Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-30T16:39:34.670Z - [REQUEST]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.scss
+[NX Daemon Server] - 2024-12-30T16:39:34.670Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-30T16:39:34.673Z - Time taken for 'hash changed files from watcher' 0.6162500381469727ms
+[NX Daemon Server] - 2024-12-30T16:39:34.692Z - Time taken for 'build-project-configs' 17.39199995994568ms
+[NX Daemon Server] - 2024-12-30T16:39:34.719Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-12-30T16:39:34.720Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-12-30T16:39:34.720Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-12-30T16:39:34.720Z - Time taken for 'total execution time for createProjectGraph()' 25.369791984558105ms
+[NX Daemon Server] - 2024-12-30T16:39:56.662Z - [WATCHER]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.html was modified
+[NX Daemon Server] - 2024-12-30T16:39:56.662Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:40:03.064Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-30T16:40:03.065Z - [REQUEST]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.html
+[NX Daemon Server] - 2024-12-30T16:40:03.065Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-30T16:40:03.068Z - Time taken for 'hash changed files from watcher' 0.3842909336090088ms
+[NX Daemon Server] - 2024-12-30T16:40:03.100Z - Time taken for 'build-project-configs' 30.245707988739014ms
+[NX Daemon Server] - 2024-12-30T16:40:03.126Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-12-30T16:40:03.126Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-12-30T16:40:03.126Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-12-30T16:40:03.127Z - Time taken for 'total execution time for createProjectGraph()' 21.611083984375ms
+[NX Daemon Server] - 2024-12-30T16:40:05.236Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:40:05.238Z - [WATCHER]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.scss was modified
+[NX Daemon Server] - 2024-12-30T16:40:05.669Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:40:11.643Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-30T16:40:11.645Z - [REQUEST]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.scss
+[NX Daemon Server] - 2024-12-30T16:40:11.645Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-30T16:40:11.654Z - Time taken for 'hash changed files from watcher' 1.1566669940948486ms
+[NX Daemon Server] - 2024-12-30T16:40:11.699Z - Time taken for 'build-project-configs' 45.044541001319885ms
+[NX Daemon Server] - 2024-12-30T16:40:11.738Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-12-30T16:40:11.738Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-12-30T16:40:11.738Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-12-30T16:40:11.738Z - Time taken for 'total execution time for createProjectGraph()' 39.75708305835724ms
+[NX Daemon Server] - 2024-12-30T16:40:36.918Z - [WATCHER]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.scss was modified
+[NX Daemon Server] - 2024-12-30T16:40:36.919Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:40:43.320Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-30T16:40:43.320Z - [REQUEST]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.scss
+[NX Daemon Server] - 2024-12-30T16:40:43.320Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-30T16:40:43.325Z - Time taken for 'hash changed files from watcher' 0.4156249761581421ms
+[NX Daemon Server] - 2024-12-30T16:40:43.351Z - Time taken for 'build-project-configs' 24.044832944869995ms
+[NX Daemon Server] - 2024-12-30T16:40:43.384Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-12-30T16:40:43.384Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-12-30T16:40:43.385Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-12-30T16:40:43.385Z - Time taken for 'total execution time for createProjectGraph()' 33.48679196834564ms
+[NX Daemon Server] - 2024-12-30T16:40:45.262Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:40:45.264Z - [WATCHER]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.scss was modified
+[NX Daemon Server] - 2024-12-30T16:40:51.667Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-30T16:40:51.669Z - [REQUEST]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.scss
+[NX Daemon Server] - 2024-12-30T16:40:51.669Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-30T16:40:51.675Z - Time taken for 'hash changed files from watcher' 1.04812490940094ms
+[NX Daemon Server] - 2024-12-30T16:40:51.714Z - Time taken for 'build-project-configs' 37.86908400058746ms
+[NX Daemon Server] - 2024-12-30T16:40:51.756Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-12-30T16:40:51.756Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-12-30T16:40:51.756Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-12-30T16:40:51.756Z - Time taken for 'total execution time for createProjectGraph()' 42.54758393764496ms
+[NX Daemon Server] - 2024-12-30T16:41:28.591Z - [WATCHER]: libs/share-ui/src/lib/information-card/information-card.component.scss was modified
+[NX Daemon Server] - 2024-12-30T16:41:28.591Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:41:34.994Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-30T16:41:34.995Z - [REQUEST]: libs/share-ui/src/lib/information-card/information-card.component.scss
+[NX Daemon Server] - 2024-12-30T16:41:34.995Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-30T16:41:35.000Z - Time taken for 'hash changed files from watcher' 0.7575420141220093ms
+[NX Daemon Server] - 2024-12-30T16:41:35.061Z - Time taken for 'build-project-configs' 53.21308398246765ms
+[NX Daemon Server] - 2024-12-30T16:41:35.198Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-12-30T16:41:35.198Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-12-30T16:41:35.198Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-12-30T16:41:35.198Z - Time taken for 'total execution time for createProjectGraph()' 128.2971659898758ms
+[NX Daemon Server] - 2024-12-30T16:41:40.951Z - [WATCHER]: libs/share-ui/src/lib/information-card/information-card.component.scss was modified
+[NX Daemon Server] - 2024-12-30T16:41:40.953Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:41:47.360Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-30T16:41:47.361Z - [REQUEST]: libs/share-ui/src/lib/information-card/information-card.component.scss
+[NX Daemon Server] - 2024-12-30T16:41:47.361Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-30T16:41:47.368Z - Time taken for 'hash changed files from watcher' 1.4998329877853394ms
+[NX Daemon Server] - 2024-12-30T16:41:47.410Z - Time taken for 'build-project-configs' 42.91979205608368ms
+[NX Daemon Server] - 2024-12-30T16:41:47.444Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-12-30T16:41:47.444Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-12-30T16:41:47.444Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-12-30T16:41:47.444Z - Time taken for 'total execution time for createProjectGraph()' 33.20150005817413ms
+[NX Daemon Server] - 2024-12-30T16:42:07.004Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:42:07.010Z - [WATCHER]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.scss was modified
+[NX Daemon Server] - 2024-12-30T16:42:13.413Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-30T16:42:13.413Z - [REQUEST]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.scss
+[NX Daemon Server] - 2024-12-30T16:42:13.413Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-30T16:42:13.416Z - Time taken for 'hash changed files from watcher' 0.4294999837875366ms
+[NX Daemon Server] - 2024-12-30T16:42:13.449Z - Time taken for 'build-project-configs' 31.535791993141174ms
+[NX Daemon Server] - 2024-12-30T16:42:13.478Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-12-30T16:42:13.478Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-12-30T16:42:13.478Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-12-30T16:42:13.478Z - Time taken for 'total execution time for createProjectGraph()' 27.339583039283752ms
+[NX Daemon Server] - 2024-12-30T16:42:33.388Z - [WATCHER]: libs/share-ui/src/lib/information-card/information-card.component.scss was modified
+[NX Daemon Server] - 2024-12-30T16:42:33.389Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:42:39.793Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-30T16:42:39.794Z - [REQUEST]: libs/share-ui/src/lib/information-card/information-card.component.scss
+[NX Daemon Server] - 2024-12-30T16:42:39.794Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-30T16:42:39.801Z - Time taken for 'hash changed files from watcher' 0.9232079982757568ms
+[NX Daemon Server] - 2024-12-30T16:42:39.842Z - Time taken for 'build-project-configs' 39.47041690349579ms
+[NX Daemon Server] - 2024-12-30T16:42:39.879Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-12-30T16:42:39.879Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-12-30T16:42:39.879Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-12-30T16:42:39.879Z - Time taken for 'total execution time for createProjectGraph()' 38.33183300495148ms
+[NX Daemon Server] - 2024-12-30T16:43:44.408Z - [WATCHER]: libs/share-ui/src/lib/information-card/information-card.component.scss was modified
+[NX Daemon Server] - 2024-12-30T16:43:44.409Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:43:50.813Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-30T16:43:50.813Z - [REQUEST]: libs/share-ui/src/lib/information-card/information-card.component.scss
+[NX Daemon Server] - 2024-12-30T16:43:50.813Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-30T16:43:50.826Z - Time taken for 'hash changed files from watcher' 1.123041033744812ms
+[NX Daemon Server] - 2024-12-30T16:43:50.870Z - Time taken for 'build-project-configs' 46.474416971206665ms
+[NX Daemon Server] - 2024-12-30T16:43:50.905Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-12-30T16:43:50.905Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-12-30T16:43:50.905Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-12-30T16:43:50.905Z - Time taken for 'total execution time for createProjectGraph()' 36.26154100894928ms
+[NX Daemon Server] - 2024-12-30T16:45:38.964Z - [WATCHER]: libs/share-ui/src/lib/information-card/information-card.component.scss was modified
+[NX Daemon Server] - 2024-12-30T16:45:38.965Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:45:45.370Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-30T16:45:45.370Z - [REQUEST]: libs/share-ui/src/lib/information-card/information-card.component.scss
+[NX Daemon Server] - 2024-12-30T16:45:45.370Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-30T16:45:45.387Z - Time taken for 'hash changed files from watcher' 1.0265830755233765ms
+[NX Daemon Server] - 2024-12-30T16:45:45.431Z - Time taken for 'build-project-configs' 53.95116698741913ms
+[NX Daemon Server] - 2024-12-30T16:45:45.461Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-12-30T16:45:45.462Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-12-30T16:45:45.462Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-12-30T16:45:45.462Z - Time taken for 'total execution time for createProjectGraph()' 29.131500005722046ms
+[NX Daemon Server] - 2024-12-30T16:48:08.108Z - [WATCHER]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.scss was modified
+[NX Daemon Server] - 2024-12-30T16:48:08.110Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:48:14.513Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-30T16:48:14.514Z - [REQUEST]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.scss
+[NX Daemon Server] - 2024-12-30T16:48:14.514Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-30T16:48:14.528Z - Time taken for 'hash changed files from watcher' 2.489082932472229ms
+[NX Daemon Server] - 2024-12-30T16:48:14.561Z - Time taken for 'build-project-configs' 31.813790917396545ms
+[NX Daemon Server] - 2024-12-30T16:48:14.604Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-12-30T16:48:14.604Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-12-30T16:48:14.604Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-12-30T16:48:14.604Z - Time taken for 'total execution time for createProjectGraph()' 45.239916920661926ms
+[NX Daemon Server] - 2024-12-30T16:48:16.069Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:48:16.072Z - [WATCHER]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.scss was modified
+[NX Daemon Server] - 2024-12-30T16:48:22.477Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-30T16:48:22.478Z - [REQUEST]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.scss
+[NX Daemon Server] - 2024-12-30T16:48:22.478Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-30T16:48:22.488Z - Time taken for 'hash changed files from watcher' 1.1829159259796143ms
+[NX Daemon Server] - 2024-12-30T16:48:22.515Z - Time taken for 'build-project-configs' 31.909250020980835ms
+[NX Daemon Server] - 2024-12-30T16:48:22.544Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-12-30T16:48:22.545Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-12-30T16:48:22.545Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-12-30T16:48:22.545Z - Time taken for 'total execution time for createProjectGraph()' 26.174042105674744ms
+[NX Daemon Server] - 2024-12-30T16:49:31.613Z - [WATCHER]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.scss was modified
+[NX Daemon Server] - 2024-12-30T16:49:31.614Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:49:34.304Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:49:34.305Z - [WATCHER]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.scss was modified
+[NX Daemon Server] - 2024-12-30T16:49:38.016Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-30T16:49:38.016Z - [REQUEST]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.scss
+[NX Daemon Server] - 2024-12-30T16:49:38.016Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-30T16:49:38.023Z - Time taken for 'hash changed files from watcher' 0.5510419607162476ms
+[NX Daemon Server] - 2024-12-30T16:49:38.066Z - Time taken for 'build-project-configs' 43.953624963760376ms
+[NX Daemon Server] - 2024-12-30T16:49:38.100Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-12-30T16:49:38.100Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-12-30T16:49:38.100Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-12-30T16:49:38.100Z - Time taken for 'total execution time for createProjectGraph()' 32.37808299064636ms
+[NX Daemon Server] - 2024-12-30T16:50:57.411Z - [WATCHER]: apps/real-time-vocabulary-app/src/app/components/leader-board/leader-board.component.html was modified
+[NX Daemon Server] - 2024-12-30T16:50:57.413Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:50:57.586Z - [WATCHER]: apps/real-time-vocabulary-app/src/app/components/leader-board/leader-board.component.html was modified
+[NX Daemon Server] - 2024-12-30T16:50:57.586Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:51:03.167Z - [WATCHER]: apps/real-time-vocabulary-app/src/app/components/leader-board/leader-board.component.html was modified
+[NX Daemon Server] - 2024-12-30T16:51:03.168Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:51:03.533Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:51:03.814Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-30T16:51:03.814Z - [REQUEST]: apps/real-time-vocabulary-app/src/app/components/leader-board/leader-board.component.html
+[NX Daemon Server] - 2024-12-30T16:51:03.814Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-30T16:51:03.816Z - Time taken for 'hash changed files from watcher' 0.21654200553894043ms
+[NX Daemon Server] - 2024-12-30T16:51:03.839Z - Time taken for 'build-project-configs' 21.172874927520752ms
+[NX Daemon Server] - 2024-12-30T16:51:03.875Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-12-30T16:51:03.876Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-12-30T16:51:03.876Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-12-30T16:51:03.876Z - Time taken for 'total execution time for createProjectGraph()' 34.69466698169708ms
+[NX Daemon Server] - 2024-12-30T16:51:46.022Z - [WATCHER]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.scss was modified
+[NX Daemon Server] - 2024-12-30T16:51:46.024Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:51:46.216Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:51:52.428Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-30T16:51:52.428Z - [REQUEST]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.scss
+[NX Daemon Server] - 2024-12-30T16:51:52.428Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-30T16:51:52.435Z - Time taken for 'hash changed files from watcher' 0.7745410203933716ms
+[NX Daemon Server] - 2024-12-30T16:51:52.468Z - Time taken for 'build-project-configs' 34.26758396625519ms
+[NX Daemon Server] - 2024-12-30T16:51:52.503Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-12-30T16:51:52.503Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-12-30T16:51:52.503Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-12-30T16:51:52.503Z - Time taken for 'total execution time for createProjectGraph()' 32.80499994754791ms
+[NX Daemon Server] - 2024-12-30T16:51:58.263Z - [WATCHER]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.html was modified
+[NX Daemon Server] - 2024-12-30T16:51:58.264Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:51:58.361Z - [WATCHER]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.html was modified
+[NX Daemon Server] - 2024-12-30T16:51:58.361Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:52:00.521Z - [WATCHER]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.html was modified
+[NX Daemon Server] - 2024-12-30T16:52:00.521Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:52:00.928Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:52:04.668Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-30T16:52:04.669Z - [REQUEST]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.html
+[NX Daemon Server] - 2024-12-30T16:52:04.669Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-30T16:52:04.673Z - Time taken for 'hash changed files from watcher' 0.3455420732498169ms
+[NX Daemon Server] - 2024-12-30T16:52:04.720Z - Time taken for 'build-project-configs' 45.67083299160004ms
+[NX Daemon Server] - 2024-12-30T16:52:04.751Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-12-30T16:52:04.752Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-12-30T16:52:04.752Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-12-30T16:52:04.752Z - Time taken for 'total execution time for createProjectGraph()' 27.570541977882385ms
+[NX Daemon Server] - 2024-12-30T16:52:43.154Z - [WATCHER]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.html was modified
+[NX Daemon Server] - 2024-12-30T16:52:43.157Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:52:43.576Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:52:49.476Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-30T16:52:49.477Z - [REQUEST]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.html
+[NX Daemon Server] - 2024-12-30T16:52:49.477Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-30T16:52:49.483Z - Time taken for 'hash changed files from watcher' 0.6082919836044312ms
+[NX Daemon Server] - 2024-12-30T16:52:49.527Z - Time taken for 'build-project-configs' 42.861958026885986ms
+[NX Daemon Server] - 2024-12-30T16:52:49.571Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-12-30T16:52:49.571Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-12-30T16:52:49.571Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-12-30T16:52:49.571Z - Time taken for 'total execution time for createProjectGraph()' 43.543874979019165ms
+[NX Daemon Server] - 2024-12-30T16:52:50.681Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:52:50.684Z - [WATCHER]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.scss was modified
+[NX Daemon Server] - 2024-12-30T16:52:51.106Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:52:57.090Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-30T16:52:57.093Z - [REQUEST]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.scss
+[NX Daemon Server] - 2024-12-30T16:52:57.093Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-30T16:52:57.106Z - Time taken for 'hash changed files from watcher' 1.555332899093628ms
+[NX Daemon Server] - 2024-12-30T16:52:57.143Z - Time taken for 'build-project-configs' 42.762457966804504ms
+[NX Daemon Server] - 2024-12-30T16:52:57.173Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-12-30T16:52:57.173Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-12-30T16:52:57.173Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-12-30T16:52:57.173Z - Time taken for 'total execution time for createProjectGraph()' 29.52175009250641ms
+[NX Daemon Server] - 2024-12-30T16:54:35.218Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-12-30T16:54:35.233Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-12-30T16:55:10.045Z - [WATCHER]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.html was deleted
+[NX Daemon Server] - 2024-12-30T16:55:10.046Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-12-30T16:55:16.451Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-12-30T16:55:16.451Z - [REQUEST]: 
+[NX Daemon Server] - 2024-12-30T16:55:16.452Z - [REQUEST]: apps/real-time-vocabulary-app/src/app/components/assessment-cards/assessment-cards.component.html
+[NX Daemon Server] - 2024-12-30T16:55:16.460Z - Time taken for 'hash changed files from watcher' 2.6172080039978027ms
+[NX Daemon Server] - 2024-12-30T16:55:16.497Z - Time taken for 'build-project-configs' 35.498834013938904ms
+[NX Daemon Server] - 2024-12-30T16:55:16.519Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-12-30T16:55:16.519Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-12-30T16:55:16.519Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-12-30T16:55:16.519Z - Time taken for 'total execution time for createProjectGraph()' 20.079625010490417ms

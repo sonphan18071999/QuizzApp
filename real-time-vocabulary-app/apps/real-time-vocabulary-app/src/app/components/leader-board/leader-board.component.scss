@@ -1,66 +1,71 @@
-.leaderboard-container {
-  display: flex;
-  flex-direction: column;
-  //overflow-x: ;
-  gap: 0.5rem;
-  padding: 0.5rem
-}
-
 .leaderboard-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 3rem;
-  padding: 1rem;
+  max-width: calc(100% - 2rem);
+  margin: 20px auto;
+  padding: 20px;
   border-radius: 8px;
-  background-color: #fafafa;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: Arial, sans-serif;
 }
 
-.leaderboard-container__data {
+.leaderboard-card h2 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.leaderboard-card ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.leaderboard-card li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
 
-  h4 {
-    margin: 0;
-  }
+.leaderboard-card li:last-child {
+  border-bottom: none;
+}
 
-  .user-name-container,
-  .name-container,
-  .points-container {
-    display: flex;
-    align-items: center;
-  }
+.leaderboard-card .rank {
+  font-weight: bold;
+  color: #555;
+}
 
-  .user-name-container {
-    flex: 1;
-    text-align: center;
-    padding-left: 1rem;
-  }
+.leaderboard-card .name {
+  flex: 1;
+  text-align: left;
+  margin-left: 10px;
+  font-size: 1em;
+  color: #333;
+}
 
-  .name-container {
-    flex: 3;
-    text-align: center;
-  }
+.leaderboard-card .score {
+  font-size: 1em;
+  font-weight: bold;
+  color: #1a73e8;
+}
 
-  .points-container {
-    flex: 1;
-    text-align: right;
-  }
-
-  @keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-
+@media screen and (max-width: 600px) {
   .leaderboard-card {
-    animation: fadeIn 1s ease-out;
+    padding: 15px;
+  }
+
+  .leaderboard-card h2 {
+    font-size: 1.2em;
+  }
+
+  .leaderboard-card .name {
+    font-size: 0.9em;
+  }
+
+  .leaderboard-card .score {
+    font-size: 0.9em;
   }
 }
